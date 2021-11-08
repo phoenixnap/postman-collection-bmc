@@ -47,23 +47,36 @@ You will see a prompt to log in or sign up. Follow the steps outlined [here](htt
 
 The Postman Collection of BMC APIs lets you easily trigger and test API calls to view your BMC server status, billing information, audit logs, networks, and tags. It is automatically updated on GitHub with every change we make to our APIs, so you always have the access to the latest version. 
 
- <br>You can deploy it in a couple of steps: 
+ <br>You can deploy it in several simple steps: 
 
-```
-  1. Download Collection from [https://github.com/phoenixnap/postman-collection-bmc](https://github.com/phoenixnap/postman-collection-bmc).
+  1. Download Collection from https://github.com/phoenixnap/postman-collection-bmc.
   2. Import the collection into Postman. 
-  3. Before using Collection, you need to set up two enviorment variables: clientID and clientSecret. 
-    a) Go to your Bare Metal Cloud acount and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. 
-    b) Click *Manage Enviornments* in the top right corner of Postman inerface. 
-    c) Add two new environments with variables clientId and clientSecret that you fetched from step a
-    d) Save the environment and select it in the environment drop down menu
+  3. Before using Collection, you need to set up two enviorment variables: Client ID and Client Secret. <br>
+      - Go to your Bare Metal Cloud acount and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. <br>
+      - Click *Manage Enviornments* in the top right corner of Postman inerface. <br>
+      - Add two new environments with variables Client ID and Client Secret that you fetched from step BMC portal. <br>
+      - Save the environment and select it in the environment drop down menu<br>
   4. The Collection can now be used to make or test API calls. 
- ```
+<br>
 :bulb: You will need to Authorize each call before being able to execute on it. <br>
 :bulb: Parameters and Body Requests are provided as an example in all requests. They need to be changed to reflect your own use. <br>
 :bulb: Environment variables you created for BMC credentials will not be deleted when you update the collection, even though everything else will be refreshed.   <br>
 
-## Creatign BMC Credentials 
+## Creating BMC Credentials 
+
+Creating BMC Client ID and Client Secret takes several simple steps. 
+
+  1. Log in to your BMC account at bmc.phoenixnap.com.
+  2. Choose *API Credentials* from the left hand menu. 
+  
+  ![image](https://user-images.githubusercontent.com/81640346/140774465-99a4e248-0ca2-4927-80f2-2a2700256574.png)
+
+  3. Click *Create API Credentials* to open a dialogue where you will enter Credential name and Credential description. 
+
+![image](https://user-images.githubusercontent.com/81640346/140776688-57325239-10ba-4ae6-a9e8-5bdedbf67b2d.png)
+
+  4. Select the Credentials scope and click *Create*. 
+  5. Your Client ID and Client Secret have been created. You can copy them and add them to Postman for authorization. 
 
 ## Bare Metal Cloud community
 
