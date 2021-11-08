@@ -3,17 +3,17 @@
   <br>
   <a href="https://phoenixnap.com/bare-metal-cloud"><img src="https://user-images.githubusercontent.com/78744488/109779287-16da8600-7c06-11eb-81a1-97bf44983d33.png" alt="phoenixnap Bare Metal Cloud" width="300"></a>
   <br>
-  Bare Metal Cloud Postman Collection
+  Postman Collection of Bare Metal Cloud APIs
   <br>
 </h1>
 
 <p align="center">
-Postman collection of APIs contains resources to help you store and collaborate on your<a href="https://phoenixnap.com/bare-metal-cloud"> Bare Metal Cloud</a> APIs.
+Interact with<a href="https://phoenixnap.com/bare-metal-cloud"> Bare Metal Cloud (BMC)</a> APIs using your favorite API management and testing tool. 
 </p>
 
 <p align="center">
   <a href="https://phoenixnap.com/bare-metal-cloud">Bare Metal Cloud</a> •
-  <a href="https://www.postman.com/phoenixnap">Postman Website</a> •
+  <a href="https://www.postman.com/phoenixnap">BMC Collection on Postman</a> •
   <a href="https://developers.phoenixnap.com/">Developers Portal</a> •
   <a href="http://phoenixnap.com/kb">Knowledge Base</a> •
   <a href="https://developers.phoenixnap.com/support">Support</a>
@@ -21,8 +21,8 @@ Postman collection of APIs contains resources to help you store and collaborate 
 
 ## Requirements
 
-- [Bare Metal Cloud](https://bmc.phoenixnap.com) account
-- Postman account
+- Bare Metal Cloud (BMC) account - [Get Started](https://learning.postman.com/docs/getting-started/installation-and-updates/)
+- Postman account / locall installation of Postman - [View Instructions](https://learning.postman.com/docs/getting-started/installation-and-updates/)
 
 ## Creating a Bare Metal Cloud account
 
@@ -41,11 +41,29 @@ To use Postman on the desktop, download the app and launch it.
 
 Alternatively, navigate to Postman on the web at go.postman.co/home.
 
-You will see a prompt to log in or sign up. Follow the steps and create an account. 
+You will see a prompt to log in or sign up. Follow the steps outlined [here](https://learning.postman.com/docs/getting-started/installation-and-updates/) to create an account. 
 
 ## Using BMC Postman Collection
 
-BMC Postman Collection can be used in different ways:
+The Postman Collection of BMC APIs lets you easily trigger and test API calls to view your BMC server status, billing information, audit logs, networks, and tags. It is automatically updated on GitHub with every change we make to our APIs, so you always have the access to the latest version. 
+
+ <br>You can deploy it in a couple of steps: 
+
+```
+  1. Download Collection from [https://github.com/phoenixnap/postman-collection-bmc](https://github.com/phoenixnap/postman-collection-bmc).
+  2. Import the collection into Postman. 
+  3. Before using Collection, you need to set up two enviorment variables: clientID and clientSecret. 
+    a) Go to your Bare Metal Cloud acount and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. 
+    b) Click *Manage Enviornments* in the top right corner of Postman inerface. 
+    c) Add two new environments with variables clientId and clientSecret that you fetched from step a
+    d) Save the environment and select it in the environment drop down menu
+  4. The Collection can now be used to make or test API calls. 
+ ```
+:bulb: You will need to Authorize each call before being able to execute on it. <br>
+:bulb: Parameters and Body Requests are provided as an example in all requests. They need to be changed to reflect your own use. <br>
+:bulb: Environment variables you created for BMC credentials will not be deleted when you update the collection, even though everything else will be refreshed.   <br>
+
+## Creatign BMC Credentials 
 
 ## Bare Metal Cloud community
 
