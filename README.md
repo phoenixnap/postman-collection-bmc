@@ -47,7 +47,7 @@ You will see a prompt to log in or sign up. Follow the steps outlined [here](htt
 
 The Postman Collection of BMC APIs lets you easily trigger and test API calls to view your BMC server status, billing information, audit logs, networks, and tags. It is automatically updated on GitHub with every change we make to our APIs, so you always have the access to the latest version. 
 
-**Dployment steps:**
+**Deployment steps:**
 
   1. Download Collection from https://github.com/phoenixnap/postman-collection-bmc.
   2. Import the collection into Postman. 
