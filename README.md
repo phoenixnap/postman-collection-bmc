@@ -47,17 +47,17 @@ You will see a prompt to log in or sign up. Follow the steps outlined [here](htt
 
 The Postman Collection of BMC APIs lets you easily trigger and test API calls to view your BMC server status, billing information, audit logs, networks, and tags. It is automatically updated on GitHub with every change we make to our APIs, so you always have the access to the latest version. 
 
- <br>You can deploy it in several simple steps: 
+**Dployment steps:**
 
   1. Download Collection from https://github.com/phoenixnap/postman-collection-bmc.
   2. Import the collection into Postman. 
-  3. Before using Collection, you need to set up two enviorment variables: Client ID and Client Secret. <br>
+  3. Set up two enviorment variables: Client ID and Client Secret. <br>
       - Go to your Bare Metal Cloud acount and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. <br>
       - Click *Manage Enviornments* in the top right corner of Postman inerface. <br>
       - Add two new environments with variables Client ID and Client Secret that you fetched from step BMC portal. <br>
       - Save the environment and select it in the environment drop down menu<br>
   4. The Collection can now be used to make or test API calls. 
-<br>
+
 :bulb: You will need to Authorize each call before being able to execute on it. <br>
 :bulb: Parameters and Body Requests are provided as an example in all requests. They need to be changed to reflect your own use. <br>
 :bulb: Environment variables you created for BMC credentials will not be deleted when you update the collection, even though everything else will be refreshed.   <br>
@@ -67,7 +67,7 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
 Creating BMC Client ID and Client Secret takes several simple steps. 
 
   1. Log in to your BMC account at bmc.phoenixnap.com.
-  2. Choose *API Credentials* from the left hand menu. 
+  2. Choose *API Credentials* from the left side menu.
   
   ![image](https://user-images.githubusercontent.com/81640346/140774465-99a4e248-0ca2-4927-80f2-2a2700256574.png)
 
