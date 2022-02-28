@@ -8,7 +8,7 @@
             "item": [
                 {
                     "event": [],
-                    "id": "e4c605e7-1172-4de1-bd7a-2bd5f1291d0b",
+                    "id": "bea564c3-177f-471e-b945-e49e2584f0e1",
                     "name": "List event logs.",
                     "request": {
                         "auth": {
@@ -130,7 +130,7 @@
                                     "description": "The HTTP verb corresponding to the action.",
                                     "disabled": false,
                                     "key": "verb",
-                                    "value": "DELETE"
+                                    "value": "PATCH"
                                 },
                                 {
                                     "description": "The request uri.",
@@ -150,11 +150,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "b1af9efc-5d19-4315-b08e-441f81d53bc1",
+                    "id": "13082f7e-26c6-4dbe-9869-99ca72b68011",
                     "item": [
                         {
                             "event": [],
-                            "id": "01a4ba16-33b0-43a0-a3b2-ff407dfd876c",
+                            "id": "39c35511-0bfa-4531-8bea-f14e12606388",
                             "name": "List servers.",
                             "request": {
                                 "auth": {
@@ -246,13 +246,13 @@
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "anim dolore"
+                                            "value": "Duis dolor dolore ut"
                                         },
                                         {
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "ea magna"
+                                            "value": "ex id nostrud cupidatat"
                                         }
                                     ],
                                     "variable": []
@@ -261,7 +261,7 @@
                         },
                         {
                             "event": [],
-                            "id": "c4f1cef1-cc75-41b5-b51d-d1af91e59e19",
+                            "id": "e2d345c5-99f1-4888-9ac8-0867a112c6fb",
                             "name": "Create new server.",
                             "request": {
                                 "auth": {
@@ -368,11 +368,11 @@
                         },
                         {
                             "event": [],
-                            "id": "21e3817a-9a8e-4e14-a817-5c255d98ebd5",
+                            "id": "f9031b72-a52c-4cd0-88bc-8b01f8c9f523",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "15c992da-2940-4507-ae6d-fd51027c93b9",
+                                    "id": "38753818-98d5-4ffc-8f61-ea85985e63dc",
                                     "name": "Get server.",
                                     "request": {
                                         "auth": {
@@ -475,7 +475,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "360f5f1c-387d-4703-a798-386d1bbbfb9c",
+                                    "id": "9b754af8-61fa-4e4b-8f2e-e6cefb5ccfc3",
                                     "name": "Patch a Server.",
                                     "request": {
                                         "auth": {
@@ -591,7 +591,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "2a30977e-6ee7-431d-a8cc-520b7075cb09",
+                                    "id": "a236337f-4311-4148-8ead-4c6ca94e83fd",
                                     "name": "Delete server.",
                                     "request": {
                                         "auth": {
@@ -660,7 +660,7 @@
                                             "type": "oauth2"
                                         },
                                         "description": {
-                                            "content": "Deprovision specific server.",
+                                            "content": "Deprovision specific server. Any IP blocks assigned to this server will also be relinquished and deleted. Deprecated: see /servers/{serverId}/actions/deprovision",
                                             "type": "text/plain"
                                         },
                                         "header": [
@@ -694,247 +694,507 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "a397234d-f94c-4ab1-8d51-2572c245e3c0",
+                                    "id": "c3556e2d-cbbe-4b16-a1a5-169f842eaa0f",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "5abfd2cc-5e1d-44e5-b8c8-d967fa381626",
-                                            "name": "Adds the server to a private network.",
-                                            "request": {
-                                                "auth": {
-                                                    "oauth2": [
-                                                        {
-                                                            "key": "headerPrefix",
-                                                            "type": "string",
-                                                            "value": "Bearer"
+                                            "id": "70cca8a9-b65b-4d70-97a8-725054a4d5da",
+                                            "item": [
+                                                {
+                                                    "event": [],
+                                                    "id": "72db9a17-59c2-4542-b30e-ee4d4b453296",
+                                                    "name": "Assign IP Block to Server.",
+                                                    "request": {
+                                                        "auth": {
+                                                            "oauth2": [
+                                                                {
+                                                                    "key": "headerPrefix",
+                                                                    "type": "string",
+                                                                    "value": "Bearer"
+                                                                },
+                                                                {
+                                                                    "key": "tokenName",
+                                                                    "type": "string",
+                                                                    "value": "Client Secrets Token"
+                                                                },
+                                                                {
+                                                                    "key": "grant_type",
+                                                                    "type": "string",
+                                                                    "value": "client_credentials"
+                                                                },
+                                                                {
+                                                                    "key": "clientSecret",
+                                                                    "type": "string",
+                                                                    "value": "{{clientSecret}}"
+                                                                },
+                                                                {
+                                                                    "key": "clientId",
+                                                                    "type": "string",
+                                                                    "value": "{{clientId}}"
+                                                                },
+                                                                {
+                                                                    "key": "authUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
+                                                                },
+                                                                {
+                                                                    "key": "accessTokenUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "redirect_uri",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "useBrowser",
+                                                                    "type": "boolean",
+                                                                    "value": false
+                                                                },
+                                                                {
+                                                                    "key": "scope",
+                                                                    "type": "string",
+                                                                    "value": "openid"
+                                                                },
+                                                                {
+                                                                    "key": "addTokenTo",
+                                                                    "type": "string",
+                                                                    "value": "header"
+                                                                },
+                                                                {
+                                                                    "key": "tokenType",
+                                                                    "type": "string",
+                                                                    "value": ""
+                                                                }
+                                                            ],
+                                                            "type": "oauth2"
                                                         },
-                                                        {
-                                                            "key": "tokenName",
-                                                            "type": "string",
-                                                            "value": "Client Secrets Token"
+                                                        "body": {
+                                                            "mode": "raw",
+                                                            "options": {
+                                                                "raw": {
+                                                                    "language": "json"
+                                                                }
+                                                            },
+                                                            "raw": "{\n    \"id\": \"60473a6115e34466c9f8f083\"\n}"
                                                         },
-                                                        {
-                                                            "key": "grant_type",
-                                                            "type": "string",
-                                                            "value": "client_credentials"
+                                                        "description": {
+                                                            "content": "Adds an IP block to this server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server.",
+                                                            "type": "text/plain"
                                                         },
-                                                        {
-                                                            "key": "clientSecret",
-                                                            "type": "string",
-                                                            "value": "{{clientSecret}}"
-                                                        },
-                                                        {
-                                                            "key": "clientId",
-                                                            "type": "string",
-                                                            "value": "{{clientId}}"
-                                                        },
-                                                        {
-                                                            "key": "authUrl",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
-                                                        },
-                                                        {
-                                                            "key": "accessTokenUrl",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
-                                                        },
-                                                        {
-                                                            "key": "redirect_uri",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
-                                                        },
-                                                        {
-                                                            "key": "useBrowser",
-                                                            "type": "boolean",
-                                                            "value": false
-                                                        },
-                                                        {
-                                                            "key": "scope",
-                                                            "type": "string",
-                                                            "value": "openid"
-                                                        },
-                                                        {
-                                                            "key": "addTokenTo",
-                                                            "type": "string",
-                                                            "value": "header"
-                                                        },
-                                                        {
-                                                            "key": "tokenType",
-                                                            "type": "string",
-                                                            "value": ""
+                                                        "header": [
+                                                            {
+                                                                "key": "Content-Type",
+                                                                "value": "application/json"
+                                                            },
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "POST",
+                                                        "name": "Assign IP Block to Server.",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "ip-block-configurations",
+                                                                "ip-blocks"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                }
+                                                            ]
                                                         }
-                                                    ],
-                                                    "type": "oauth2"
-                                                },
-                                                "body": {
-                                                    "mode": "raw",
-                                                    "options": {
-                                                        "raw": {
-                                                            "language": "json"
-                                                        }
-                                                    },
-                                                    "raw": "{\n    \"id\": \"60473a6115e34466c9f8f083\",\n    \"ips\": [\n        \"10.0.0.1\",\n        \"10.0.0.2\"\n    ],\n    \"dhcp\": false\n}"
-                                                },
-                                                "description": {
-                                                    "content": "Adds the server to a private network.",
-                                                    "type": "text/plain"
-                                                },
-                                                "header": [
-                                                    {
-                                                        "key": "Content-Type",
-                                                        "value": "application/json"
-                                                    },
-                                                    {
-                                                        "key": "X-POWERED-BY",
-                                                        "value": "BMC-Postman-Collection"
                                                     }
-                                                ],
-                                                "method": "POST",
-                                                "name": "Adds the server to a private network.",
-                                                "url": {
-                                                    "host": [
-                                                        "https://api.phoenixnap.com/bmc/v1"
-                                                    ],
-                                                    "path": [
-                                                        "servers",
-                                                        ":serverId",
-                                                        "network-configuration",
-                                                        "private-network-configuration",
-                                                        "private-networks"
-                                                    ],
-                                                    "query": [],
-                                                    "variable": [
-                                                        {
-                                                            "description": "(Required) The server's ID.",
-                                                            "disabled": false,
-                                                            "key": "serverId",
-                                                            "type": "any",
-                                                            "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                },
+                                                {
+                                                    "event": [],
+                                                    "id": "5e8a9bed-f830-4512-b442-dd143d4bbe48",
+                                                    "name": "Unassign IP Block from Server.",
+                                                    "request": {
+                                                        "auth": {
+                                                            "oauth2": [
+                                                                {
+                                                                    "key": "headerPrefix",
+                                                                    "type": "string",
+                                                                    "value": "Bearer"
+                                                                },
+                                                                {
+                                                                    "key": "tokenName",
+                                                                    "type": "string",
+                                                                    "value": "Client Secrets Token"
+                                                                },
+                                                                {
+                                                                    "key": "grant_type",
+                                                                    "type": "string",
+                                                                    "value": "client_credentials"
+                                                                },
+                                                                {
+                                                                    "key": "clientSecret",
+                                                                    "type": "string",
+                                                                    "value": "{{clientSecret}}"
+                                                                },
+                                                                {
+                                                                    "key": "clientId",
+                                                                    "type": "string",
+                                                                    "value": "{{clientId}}"
+                                                                },
+                                                                {
+                                                                    "key": "authUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
+                                                                },
+                                                                {
+                                                                    "key": "accessTokenUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "redirect_uri",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "useBrowser",
+                                                                    "type": "boolean",
+                                                                    "value": false
+                                                                },
+                                                                {
+                                                                    "key": "scope",
+                                                                    "type": "string",
+                                                                    "value": "openid"
+                                                                },
+                                                                {
+                                                                    "key": "addTokenTo",
+                                                                    "type": "string",
+                                                                    "value": "header"
+                                                                },
+                                                                {
+                                                                    "key": "tokenType",
+                                                                    "type": "string",
+                                                                    "value": ""
+                                                                }
+                                                            ],
+                                                            "type": "oauth2"
+                                                        },
+                                                        "body": {
+                                                            "mode": "raw",
+                                                            "options": {
+                                                                "raw": {
+                                                                    "language": "json"
+                                                                }
+                                                            },
+                                                            "raw": "{\n    \"deleteIpBlocks\": false\n}"
+                                                        },
+                                                        "description": {
+                                                            "content": "Removes the IP block from the server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure you are able to access this server over remote console in case of misconfiguration.</b>",
+                                                            "type": "text/plain"
+                                                        },
+                                                        "header": [
+                                                            {
+                                                                "key": "Content-Type",
+                                                                "value": "application/json"
+                                                            },
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "DELETE",
+                                                        "name": "Unassign IP Block from Server.",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "ip-block-configurations",
+                                                                "ip-blocks",
+                                                                ":ipBlockId"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                },
+                                                                {
+                                                                    "description": "(Required) The IP Block identifier.",
+                                                                    "disabled": false,
+                                                                    "key": "ipBlockId",
+                                                                    "type": "any",
+                                                                    "value": "6047127fed34ecc3ba8402d2"
+                                                                }
+                                                            ]
                                                         }
-                                                    ]
+                                                    }
                                                 }
-                                            }
+                                            ],
+                                            "name": "ip-block-configurations/ip-blocks"
                                         },
                                         {
                                             "event": [],
-                                            "id": "c8a9c7b4-a561-4aad-ae39-cf4c654d61e1",
-                                            "name": "Removes the server from private network.",
-                                            "request": {
-                                                "auth": {
-                                                    "oauth2": [
-                                                        {
-                                                            "key": "headerPrefix",
-                                                            "type": "string",
-                                                            "value": "Bearer"
+                                            "id": "9103bb7b-258a-472e-b0f7-3c4b63e3cee3",
+                                            "item": [
+                                                {
+                                                    "event": [],
+                                                    "id": "7fe5e3bb-a709-4b0b-9010-e4815f047f52",
+                                                    "name": "Adds the server to a private network.",
+                                                    "request": {
+                                                        "auth": {
+                                                            "oauth2": [
+                                                                {
+                                                                    "key": "headerPrefix",
+                                                                    "type": "string",
+                                                                    "value": "Bearer"
+                                                                },
+                                                                {
+                                                                    "key": "tokenName",
+                                                                    "type": "string",
+                                                                    "value": "Client Secrets Token"
+                                                                },
+                                                                {
+                                                                    "key": "grant_type",
+                                                                    "type": "string",
+                                                                    "value": "client_credentials"
+                                                                },
+                                                                {
+                                                                    "key": "clientSecret",
+                                                                    "type": "string",
+                                                                    "value": "{{clientSecret}}"
+                                                                },
+                                                                {
+                                                                    "key": "clientId",
+                                                                    "type": "string",
+                                                                    "value": "{{clientId}}"
+                                                                },
+                                                                {
+                                                                    "key": "authUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
+                                                                },
+                                                                {
+                                                                    "key": "accessTokenUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "redirect_uri",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "useBrowser",
+                                                                    "type": "boolean",
+                                                                    "value": false
+                                                                },
+                                                                {
+                                                                    "key": "scope",
+                                                                    "type": "string",
+                                                                    "value": "openid"
+                                                                },
+                                                                {
+                                                                    "key": "addTokenTo",
+                                                                    "type": "string",
+                                                                    "value": "header"
+                                                                },
+                                                                {
+                                                                    "key": "tokenType",
+                                                                    "type": "string",
+                                                                    "value": ""
+                                                                }
+                                                            ],
+                                                            "type": "oauth2"
                                                         },
-                                                        {
-                                                            "key": "tokenName",
-                                                            "type": "string",
-                                                            "value": "Client Secrets Token"
+                                                        "body": {
+                                                            "mode": "raw",
+                                                            "options": {
+                                                                "raw": {
+                                                                    "language": "json"
+                                                                }
+                                                            },
+                                                            "raw": "{\n    \"id\": \"60473a6115e34466c9f8f083\",\n    \"ips\": [\n        \"10.0.0.1\",\n        \"10.0.0.2\"\n    ],\n    \"dhcp\": false\n}"
                                                         },
-                                                        {
-                                                            "key": "grant_type",
-                                                            "type": "string",
-                                                            "value": "client_credentials"
+                                                        "description": {
+                                                            "content": "Adds the server to a private network.",
+                                                            "type": "text/plain"
                                                         },
-                                                        {
-                                                            "key": "clientSecret",
-                                                            "type": "string",
-                                                            "value": "{{clientSecret}}"
-                                                        },
-                                                        {
-                                                            "key": "clientId",
-                                                            "type": "string",
-                                                            "value": "{{clientId}}"
-                                                        },
-                                                        {
-                                                            "key": "authUrl",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
-                                                        },
-                                                        {
-                                                            "key": "accessTokenUrl",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
-                                                        },
-                                                        {
-                                                            "key": "redirect_uri",
-                                                            "type": "string",
-                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
-                                                        },
-                                                        {
-                                                            "key": "useBrowser",
-                                                            "type": "boolean",
-                                                            "value": false
-                                                        },
-                                                        {
-                                                            "key": "scope",
-                                                            "type": "string",
-                                                            "value": "openid"
-                                                        },
-                                                        {
-                                                            "key": "addTokenTo",
-                                                            "type": "string",
-                                                            "value": "header"
-                                                        },
-                                                        {
-                                                            "key": "tokenType",
-                                                            "type": "string",
-                                                            "value": ""
+                                                        "header": [
+                                                            {
+                                                                "key": "Content-Type",
+                                                                "value": "application/json"
+                                                            },
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "POST",
+                                                        "name": "Adds the server to a private network.",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "private-network-configuration",
+                                                                "private-networks"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                }
+                                                            ]
                                                         }
-                                                    ],
-                                                    "type": "oauth2"
-                                                },
-                                                "description": {
-                                                    "content": "Removes the server from private network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure you are able to access this server over remote console in case of misconfiguration.</b>",
-                                                    "type": "text/plain"
-                                                },
-                                                "header": [
-                                                    {
-                                                        "key": "X-POWERED-BY",
-                                                        "value": "BMC-Postman-Collection"
                                                     }
-                                                ],
-                                                "method": "DELETE",
-                                                "name": "Removes the server from private network.",
-                                                "url": {
-                                                    "host": [
-                                                        "https://api.phoenixnap.com/bmc/v1"
-                                                    ],
-                                                    "path": [
-                                                        "servers",
-                                                        ":serverId",
-                                                        "network-configuration",
-                                                        "private-network-configuration",
-                                                        "private-networks",
-                                                        ":privateNetworkId"
-                                                    ],
-                                                    "query": [],
-                                                    "variable": [
-                                                        {
-                                                            "description": "(Required) The server's ID.",
-                                                            "disabled": false,
-                                                            "key": "serverId",
-                                                            "type": "any",
-                                                            "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                },
+                                                {
+                                                    "event": [],
+                                                    "id": "e4e56560-c81f-4276-9a91-2e7617ac3006",
+                                                    "name": "Removes the server from private network.",
+                                                    "request": {
+                                                        "auth": {
+                                                            "oauth2": [
+                                                                {
+                                                                    "key": "headerPrefix",
+                                                                    "type": "string",
+                                                                    "value": "Bearer"
+                                                                },
+                                                                {
+                                                                    "key": "tokenName",
+                                                                    "type": "string",
+                                                                    "value": "Client Secrets Token"
+                                                                },
+                                                                {
+                                                                    "key": "grant_type",
+                                                                    "type": "string",
+                                                                    "value": "client_credentials"
+                                                                },
+                                                                {
+                                                                    "key": "clientSecret",
+                                                                    "type": "string",
+                                                                    "value": "{{clientSecret}}"
+                                                                },
+                                                                {
+                                                                    "key": "clientId",
+                                                                    "type": "string",
+                                                                    "value": "{{clientId}}"
+                                                                },
+                                                                {
+                                                                    "key": "authUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
+                                                                },
+                                                                {
+                                                                    "key": "accessTokenUrl",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "redirect_uri",
+                                                                    "type": "string",
+                                                                    "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                                },
+                                                                {
+                                                                    "key": "useBrowser",
+                                                                    "type": "boolean",
+                                                                    "value": false
+                                                                },
+                                                                {
+                                                                    "key": "scope",
+                                                                    "type": "string",
+                                                                    "value": "openid"
+                                                                },
+                                                                {
+                                                                    "key": "addTokenTo",
+                                                                    "type": "string",
+                                                                    "value": "header"
+                                                                },
+                                                                {
+                                                                    "key": "tokenType",
+                                                                    "type": "string",
+                                                                    "value": ""
+                                                                }
+                                                            ],
+                                                            "type": "oauth2"
                                                         },
-                                                        {
-                                                            "description": "(Required) The private network identifier.",
-                                                            "disabled": false,
-                                                            "key": "privateNetworkId",
-                                                            "type": "any",
-                                                            "value": "603f3b2cfcaf050643b89a4b"
+                                                        "description": {
+                                                            "content": "Removes the server from private network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure you are able to access this server over remote console in case of misconfiguration.</b>",
+                                                            "type": "text/plain"
+                                                        },
+                                                        "header": [
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "DELETE",
+                                                        "name": "Removes the server from private network.",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "private-network-configuration",
+                                                                "private-networks",
+                                                                ":privateNetworkId"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                },
+                                                                {
+                                                                    "description": "(Required) The private network identifier.",
+                                                                    "disabled": false,
+                                                                    "key": "privateNetworkId",
+                                                                    "type": "any",
+                                                                    "value": "603f3b2cfcaf050643b89a4b"
+                                                                }
+                                                            ]
                                                         }
-                                                    ]
+                                                    }
                                                 }
-                                            }
+                                            ],
+                                            "name": "private-network-configuration/private-networks"
                                         }
                                     ],
-                                    "name": "network-configuration/private-network-configuration/private-networks"
+                                    "name": "network-configuration"
                                 },
                                 {
                                     "event": [],
-                                    "id": "1f78d9c5-57b6-4da8-a47b-69ba1685e670",
+                                    "id": "1452c2aa-69b0-4e0e-924b-5f8e676602bb",
                                     "name": "Set server tags.",
                                     "request": {
                                         "auth": {
@@ -1051,11 +1311,129 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "0d16a896-6314-4c39-a013-cfaa99ba5120",
+                                    "id": "00185936-1654-4125-bb4a-c79b906d321b",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "e8b32020-5c7b-4cc6-9da0-845f859db6e4",
+                                            "id": "5a249a32-0a81-48b5-b1d9-a2add8d9cd0a",
+                                            "name": "Deprovision a server.",
+                                            "request": {
+                                                "auth": {
+                                                    "oauth2": [
+                                                        {
+                                                            "key": "headerPrefix",
+                                                            "type": "string",
+                                                            "value": "Bearer"
+                                                        },
+                                                        {
+                                                            "key": "tokenName",
+                                                            "type": "string",
+                                                            "value": "Client Secrets Token"
+                                                        },
+                                                        {
+                                                            "key": "grant_type",
+                                                            "type": "string",
+                                                            "value": "client_credentials"
+                                                        },
+                                                        {
+                                                            "key": "clientSecret",
+                                                            "type": "string",
+                                                            "value": "{{clientSecret}}"
+                                                        },
+                                                        {
+                                                            "key": "clientId",
+                                                            "type": "string",
+                                                            "value": "{{clientId}}"
+                                                        },
+                                                        {
+                                                            "key": "authUrl",
+                                                            "type": "string",
+                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/auth"
+                                                        },
+                                                        {
+                                                            "key": "accessTokenUrl",
+                                                            "type": "string",
+                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                        },
+                                                        {
+                                                            "key": "redirect_uri",
+                                                            "type": "string",
+                                                            "value": "https://auth.phoenixnap.com/auth/realms/BMC/protocol/openid-connect/token"
+                                                        },
+                                                        {
+                                                            "key": "useBrowser",
+                                                            "type": "boolean",
+                                                            "value": false
+                                                        },
+                                                        {
+                                                            "key": "scope",
+                                                            "type": "string",
+                                                            "value": "openid"
+                                                        },
+                                                        {
+                                                            "key": "addTokenTo",
+                                                            "type": "string",
+                                                            "value": "header"
+                                                        },
+                                                        {
+                                                            "key": "tokenType",
+                                                            "type": "string",
+                                                            "value": ""
+                                                        }
+                                                    ],
+                                                    "type": "oauth2"
+                                                },
+                                                "body": {
+                                                    "mode": "raw",
+                                                    "options": {
+                                                        "raw": {
+                                                            "language": "json"
+                                                        }
+                                                    },
+                                                    "raw": "{\n    \"deleteIpBlocks\": false\n}"
+                                                },
+                                                "description": {
+                                                    "content": "Deprovision the server. Supports advanced deprovision configuration.",
+                                                    "type": "text/plain"
+                                                },
+                                                "header": [
+                                                    {
+                                                        "key": "Content-Type",
+                                                        "value": "application/json"
+                                                    },
+                                                    {
+                                                        "key": "X-POWERED-BY",
+                                                        "value": "BMC-Postman-Collection"
+                                                    }
+                                                ],
+                                                "method": "POST",
+                                                "name": "Deprovision a server.",
+                                                "url": {
+                                                    "host": [
+                                                        "https://api.phoenixnap.com/bmc/v1"
+                                                    ],
+                                                    "path": [
+                                                        "servers",
+                                                        ":serverId",
+                                                        "actions",
+                                                        "deprovision"
+                                                    ],
+                                                    "query": [],
+                                                    "variable": [
+                                                        {
+                                                            "description": "(Required) The server's ID.",
+                                                            "disabled": false,
+                                                            "key": "serverId",
+                                                            "type": "any",
+                                                            "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "event": [],
+                                            "id": "0ba359bd-2711-4b3a-b91e-1ad52c10007c",
                                             "name": "Power on server.",
                                             "request": {
                                                 "auth": {
@@ -1160,7 +1538,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "f857a18f-b553-409c-9e7c-784d15bbcb25",
+                                            "id": "63195c86-271c-4c61-a3dd-a984e826effa",
                                             "name": "Power off server.",
                                             "request": {
                                                 "auth": {
@@ -1265,7 +1643,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "367db3ee-2d73-468c-b7a6-e0c6bf387cf2",
+                                            "id": "fc74647c-f255-4ca9-90a7-be6794e84ac4",
                                             "name": "Reboot server.",
                                             "request": {
                                                 "auth": {
@@ -1370,7 +1748,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "0d066e71-4f5a-48c6-9b0c-97c938cdeca2",
+                                            "id": "8001df12-9706-4477-9ea3-85c0d5453175",
                                             "name": "Shutdown server.",
                                             "request": {
                                                 "auth": {
@@ -1475,7 +1853,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "5383f95d-47ec-47db-bfa1-4829c0cad853",
+                                            "id": "a7dd842a-bbe6-45bc-a6c7-94751476631d",
                                             "name": "Reset server.",
                                             "request": {
                                                 "auth": {
@@ -1593,7 +1971,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "05c6618c-e91f-4007-8234-38faed80c7d5",
+                                            "id": "88bc0ce9-4b9b-4c2b-824a-27f0864fd0b7",
                                             "name": "Reserve server.",
                                             "request": {
                                                 "auth": {
@@ -1720,11 +2098,11 @@
                 },
                 {
                     "event": [],
-                    "id": "1ce48ad9-1d80-4ada-a2a0-c7f6b543a022",
+                    "id": "854e4a4a-51f7-45d7-8ade-25e4321b18e0",
                     "item": [
                         {
                             "event": [],
-                            "id": "cc3e8435-3a3c-4e55-a742-2b2d2fb7861a",
+                            "id": "91069bd1-d223-4c8c-9e47-9f6dbd9db4ef",
                             "name": "Create SSH Key.",
                             "request": {
                                 "auth": {
@@ -1831,7 +2209,7 @@
                         },
                         {
                             "event": [],
-                            "id": "6fd93d29-1e34-4e55-b828-8bcd8b14fa07",
+                            "id": "d636c066-fcf3-4b73-8a2d-fa99c888f57a",
                             "name": "List SSH Keys.",
                             "request": {
                                 "auth": {
@@ -1925,11 +2303,11 @@
                         },
                         {
                             "event": [],
-                            "id": "132cdc65-5f74-4724-806b-2c15331ffcaf",
+                            "id": "462a208b-20d5-411b-9c40-f05c72e03486",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "e53e697e-0e71-4b00-851e-0f00373b574c",
+                                    "id": "e40d410e-d147-4c02-a850-2be43ba0c271",
                                     "name": "Get SSH Key.",
                                     "request": {
                                         "auth": {
@@ -2032,7 +2410,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "4a525ae8-ff9c-4495-841f-59dadb7726dd",
+                                    "id": "b481b09a-2212-4a1c-8b7e-6ae689ae6629",
                                     "name": "Delete SSH Key.",
                                     "request": {
                                         "auth": {
@@ -2135,7 +2513,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "f3cce704-0db5-4d52-82bc-3bce3f5408b0",
+                                    "id": "4fa76b14-cacb-4006-85d0-1d81674ebd05",
                                     "name": "Edit SSH Key.",
                                     "request": {
                                         "auth": {
@@ -2257,11 +2635,11 @@
                 },
                 {
                     "event": [],
-                    "id": "e3db3a2c-7d63-4af8-ac59-8f5c7dbb538d",
+                    "id": "7eb4e115-48a0-4ae7-b6bc-7ef509866d23",
                     "item": [
                         {
                             "event": [],
-                            "id": "c21bba4d-744e-458a-87a7-6304ad343325",
+                            "id": "64e579d4-4564-4012-bf46-1ace81846d44",
                             "name": "List quotas",
                             "request": {
                                 "auth": {
@@ -2355,11 +2733,11 @@
                         },
                         {
                             "event": [],
-                            "id": "b5c20d04-c596-40be-af9d-c5d4a71eda2c",
+                            "id": "aa6a9943-0e56-4425-8831-fcc1edbd1c84",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "9748dbd7-0683-4615-9130-2f05d1fba77f",
+                                    "id": "62d3cc31-8c30-4931-b043-c8cf5adb8e64",
                                     "name": "Get a quota.",
                                     "request": {
                                         "auth": {
@@ -2462,7 +2840,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "01f93b6d-88f4-4575-9e93-9f32d7ad5b1b",
+                                    "id": "99c075b9-8fb0-497d-bcb1-c2a7bbab2c58",
                                     "name": "Request quota limit change.",
                                     "request": {
                                         "auth": {
@@ -2591,11 +2969,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "0172dd39-58e8-48d9-acce-35290154274c",
+                    "id": "f237c0f9-9f72-42a8-a8d0-5549c38697b9",
                     "item": [
                         {
                             "event": [],
-                            "id": "7b4f28f3-fc4f-44b5-932f-b7c79fc3eba4",
+                            "id": "302f9aab-c62e-4571-9302-d6f2f1d439f5",
                             "name": "List the rated usage.",
                             "request": {
                                 "auth": {
@@ -2708,7 +3086,7 @@
                         },
                         {
                             "event": [],
-                            "id": "609878f1-6d67-4d52-b2f8-1079ea44cd39",
+                            "id": "6381ddac-58c3-45f6-a33d-ef9dadeafeb5",
                             "name": "List the rated usage records for the current calendar month.",
                             "request": {
                                 "auth": {
@@ -2813,7 +3191,7 @@
                 },
                 {
                     "event": [],
-                    "id": "7e276d5e-7e3f-48ac-b226-f0a3514a82b7",
+                    "id": "53f73308-f916-4922-a6b1-c6a8c5023c05",
                     "name": "List all Products.",
                     "request": {
                         "auth": {
@@ -2928,11 +3306,11 @@
                 },
                 {
                     "event": [],
-                    "id": "2cad11cf-9d5c-4b96-bfca-4775092f055e",
+                    "id": "4d61eb11-cdb4-4e1e-a423-5db0393fc203",
                     "item": [
                         {
                             "event": [],
-                            "id": "586035d2-637b-4367-9532-8efc45e3534d",
+                            "id": "57b931cb-19c9-4846-91ff-2288775c0502",
                             "name": "List all Reservations.",
                             "request": {
                                 "auth": {
@@ -3033,7 +3411,7 @@
                         },
                         {
                             "event": [],
-                            "id": "bdae4d9e-04bd-4470-affa-39d3312cb775",
+                            "id": "86bec04c-a348-470f-8d7a-21ac64338308",
                             "name": "Create a reservation.",
                             "request": {
                                 "auth": {
@@ -3140,11 +3518,11 @@
                         },
                         {
                             "event": [],
-                            "id": "dba589ef-d598-47af-a078-54b35eef7f8a",
+                            "id": "2551b38f-0437-47a1-bb14-a86920770ba3",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "c5294bde-d211-4632-afce-1da915520fd4",
+                                    "id": "76345963-8ac5-4e47-82be-7e1f7782d629",
                                     "name": "Get a reservation.",
                                     "request": {
                                         "auth": {
@@ -3247,15 +3625,15 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "094d7711-62c2-43af-a5ca-9b6fde22a49a",
+                                    "id": "0416e241-f8b6-4a1a-97cc-9d39b843c5db",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "5ee9ebc8-a77c-41f9-aa96-dd980f9da618",
+                                            "id": "0b269172-b81d-4388-a9c1-ed20f3f14afa",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "dcb8b887-e49f-48f1-83e4-b897df161622",
+                                                    "id": "be6378a6-7e2e-47c2-b784-b9a1fc203256",
                                                     "name": "Disable auto-renewal for reservation by id.",
                                                     "request": {
                                                         "auth": {
@@ -3330,7 +3708,7 @@
                                                                     "language": "json"
                                                                 }
                                                             },
-                                                            "raw": "{\n    \"autoRenewDisableReason\": \"amet Ut\"\n}"
+                                                            "raw": "{\n    \"autoRenewDisableReason\": \"qui in ullamco elit\"\n}"
                                                         },
                                                         "description": {},
                                                         "header": [
@@ -3371,7 +3749,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "9d09f4da-888b-4202-a7e1-781d1f6b9188",
+                                                    "id": "1d4b7ccb-5377-459c-83ec-878ca999a04a",
                                                     "name": "Enable auto-renewal for unexpired reservation by reservation id.",
                                                     "request": {
                                                         "auth": {
@@ -3477,7 +3855,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "ac0197c8-878b-4fb0-ae69-61f8931548a2",
+                                            "id": "816272c9-8fe4-417f-94a3-088da8b93307",
                                             "name": "Convert reservation pricing model by reservation ID.",
                                             "request": {
                                                 "auth": {
@@ -3601,7 +3979,7 @@
                 },
                 {
                     "event": [],
-                    "id": "f6cd6670-3eac-46aa-887d-6416aef82e66",
+                    "id": "d0c87a40-464d-449f-a674-b90d519c828c",
                     "name": "Retrieves billing configuration associated with the authenticated account. ",
                     "request": {
                         "auth": {
@@ -3698,11 +4076,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "b593e744-f37c-4910-b386-a975dd1616a2",
+                    "id": "310551ff-cf67-4ea3-8735-230f6188a330",
                     "item": [
                         {
                             "event": [],
-                            "id": "a773f124-ca1d-41cb-a0db-da20adf52913",
+                            "id": "7438a441-3bc9-43a3-8189-02d9f9506043",
                             "name": "List Private Networks.",
                             "request": {
                                 "auth": {
@@ -3803,7 +4181,7 @@
                         },
                         {
                             "event": [],
-                            "id": "9890928f-a64a-4408-baf8-0507c719c5a3",
+                            "id": "b3ff503b-ebe0-45b7-97f1-9190fca118ac",
                             "name": "Create a Private Network.",
                             "request": {
                                 "auth": {
@@ -3910,11 +4288,11 @@
                         },
                         {
                             "event": [],
-                            "id": "2aadf109-3158-495d-8283-8eb4b778c427",
+                            "id": "5f2369cd-97c0-4e8d-85ac-4a68a9b908c1",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "218490c4-07e1-404f-95ff-68b7b5dfa3a2",
+                                    "id": "42cc8de9-e102-4e35-8d1d-660a4209577b",
                                     "name": "Get a Private Network.",
                                     "request": {
                                         "auth": {
@@ -4017,7 +4395,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "8e68f7e3-ea7a-475c-ab5a-d762326b4831",
+                                    "id": "b894fa32-f62d-4d27-9bbb-30cf7ae9cfe5",
                                     "name": "Update a Private Network.",
                                     "request": {
                                         "auth": {
@@ -4133,7 +4511,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "f04284a9-3f52-4ce7-8bfb-e5e951d21fe1",
+                                    "id": "fe88b0dc-0128-4316-bc3f-b2c92ad0363b",
                                     "name": "Delete a Private Network.",
                                     "request": {
                                         "auth": {
@@ -4247,11 +4625,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "839ab4fa-91c1-44b3-a865-eeac21e5a813",
+                    "id": "c89d4bd1-8875-4106-9b77-1c23ba004992",
                     "item": [
                         {
                             "event": [],
-                            "id": "36642b4e-cfaa-4db0-be9b-98c34989e1de",
+                            "id": "930e93f4-ee54-4ee0-9862-851461a705b3",
                             "name": "List IP Blocks.",
                             "request": {
                                 "auth": {
@@ -4345,7 +4723,7 @@
                         },
                         {
                             "event": [],
-                            "id": "528d9431-c2d3-47c8-9594-63183765b5b5",
+                            "id": "2380f6e8-5d7f-4944-97b6-28d3ba8cf156",
                             "name": "Create an IP Block.",
                             "request": {
                                 "auth": {
@@ -4452,11 +4830,11 @@
                         },
                         {
                             "event": [],
-                            "id": "22ab3207-6ab9-480e-8c01-f791e0a6e4df",
+                            "id": "8fbd9d77-13ea-4afa-98fa-30d95a70939c",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "ce03c9cd-c4cc-4afc-b852-71abf33bcda1",
+                                    "id": "3d35edd2-558c-4d19-8957-3bbaf34cedf9",
                                     "name": "Get IP Block.",
                                     "request": {
                                         "auth": {
@@ -4559,7 +4937,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "a8121b6e-3a62-459e-a3a6-f1b15e96adef",
+                                    "id": "7e45eaee-15d5-487d-86e9-621f36c587a6",
                                     "name": "Delete IP Block.",
                                     "request": {
                                         "auth": {
@@ -4673,11 +5051,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "43f79c41-7038-4a8a-8135-efb7f112de37",
+                    "id": "89be3ac3-fd2b-4448-a36b-cbcbd67a9bf7",
                     "item": [
                         {
                             "event": [],
-                            "id": "d8bfc0ce-3d77-4b84-97e0-fc1bc729f070",
+                            "id": "996f03d3-ba37-4341-980e-c21c7bdc7312",
                             "name": "Create a Rancher Server Deployment.",
                             "request": {
                                 "auth": {
@@ -4784,7 +5162,7 @@
                         },
                         {
                             "event": [],
-                            "id": "49e8afec-2ade-4990-a776-977583c6e89e",
+                            "id": "d5814041-9d0f-404e-bda7-fe66660e72a1",
                             "name": "Cluster list.",
                             "request": {
                                 "auth": {
@@ -4878,11 +5256,11 @@
                         },
                         {
                             "event": [],
-                            "id": "c0cd5f34-467e-4a71-bf90-7242314be116",
+                            "id": "542be768-f829-45ba-95a6-d39a68ce7b21",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "26a337da-6523-442f-9b80-758e51923f6d",
+                                    "id": "24facfb5-aa59-4688-9db3-48482dbd0179",
                                     "name": "Retrieve a Cluster",
                                     "request": {
                                         "auth": {
@@ -4985,7 +5363,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "2e26ad61-ba75-461b-8561-37bfd1113221",
+                                    "id": "bb14589c-f3b7-4cec-b132-3554e45872c0",
                                     "name": "Delete a cluster.",
                                     "request": {
                                         "auth": {
@@ -5099,11 +5477,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "0d1100c4-c664-4f0e-beae-66f5cb86a261",
+                    "id": "ae4dff13-9e93-464d-a00b-46e132553d0a",
                     "item": [
                         {
                             "event": [],
-                            "id": "4384efe0-ef15-44cd-95f0-848fd875b0ff",
+                            "id": "0c3566ae-487b-4afc-a054-fe118e5ac724",
                             "name": "List tags.",
                             "request": {
                                 "auth": {
@@ -5204,7 +5582,7 @@
                         },
                         {
                             "event": [],
-                            "id": "9eaf4508-7e9c-4edb-9179-3d81178b4c16",
+                            "id": "664e9fd6-7093-4016-bc69-917d9730b76f",
                             "name": "Create a Tag.",
                             "request": {
                                 "auth": {
@@ -5311,11 +5689,11 @@
                         },
                         {
                             "event": [],
-                            "id": "0263bc26-bd9b-4394-b7c3-486698ecb2f1",
+                            "id": "c66c2a9b-7809-4c24-ae80-e512812866df",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "a1d4e8bc-4ed1-4152-a7a6-00a5e3457627",
+                                    "id": "6122bfdd-3373-4a82-8606-4061ba2bea9b",
                                     "name": "Get a Tag.",
                                     "request": {
                                         "auth": {
@@ -5418,7 +5796,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "cb6a5757-1bf3-4ca1-b6cf-c358e77b9857",
+                                    "id": "522c9483-380d-4f93-9360-22cef78817b7",
                                     "name": "Modify a Tag.",
                                     "request": {
                                         "auth": {
@@ -5534,7 +5912,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "6df0f990-3f32-4b51-a4f3-a54d6d7bd74c",
+                                    "id": "9fa3420a-0e4f-4f6e-93f9-eb832fb35e37",
                                     "name": "Delete a Tag.",
                                     "request": {
                                         "auth": {
