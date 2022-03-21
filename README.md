@@ -62,7 +62,7 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
   1. Go on the Collection.
   2. Click on the 3 dots button bottom right or right click.
 
-![image](https://user-images.githubusercontent.com/94684424/159256980-4deeb258-e50e-489f-999a-7057843cf683.png)
+![image](https://user-images.githubusercontent.com/94684424/159259149-cd62d058-876c-41e6-a786-0a6d9b227803.png)
 
   3. Go on edit.
   4. Go on Authorization.
