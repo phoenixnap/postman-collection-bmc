@@ -98,7 +98,7 @@ Become part of the Bare Metal Cloud community to get updates on new features, he
 ### Documentation
 
 - [Postman Website - phoenixNAP](https://www.postman.com/phoenixnap)
-- [API documentation](https://developers.phoenixnap.com/apis)
+- [API documentation](https://developers.phoenixnap.com/docs/bmc/1/overview)
 
 ### Contact phoenixNAP
 
