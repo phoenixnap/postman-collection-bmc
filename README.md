@@ -58,7 +58,21 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
       - Save the environment and select it in the environment drop down menu<br>
   4. The Collection can now be used to make or test API calls. 
 
-:bulb: You will need to Authorize each call before being able to execute on it. <br>
+:bulb: **Authentication steps:**
+  1. Go on the Collection.
+  2. Click on the 3 dots button bottom right or right click.
+
+![image](https://user-images.githubusercontent.com/94684424/159256980-4deeb258-e50e-489f-999a-7057843cf683.png)
+
+  3. Go on edit.
+  4. Go on Authorization.
+
+![image](https://user-images.githubusercontent.com/94684424/159257108-69fecb30-29de-46f3-b587-6b0e3cf930bd.png)
+
+  5. Get New Access Token.
+  6. Click Update.
+  7. You have generated a token which will be inherited by the individual calls. Repeat the process only for when the token expires.
+ 
 :bulb: Parameters and Body Requests are provided as an example in all requests. They need to be changed to reflect your own use. <br>
 :bulb: Environment variables you created for BMC credentials will not be deleted when you update the collection, even though everything else will be refreshed.   <br>
 
