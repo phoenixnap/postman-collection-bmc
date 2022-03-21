@@ -58,7 +58,7 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
       - Save the environment and select it in the environment drop down menu<br>
   4. The Collection can now be used to make or test API calls. 
 
-**Authentication steps:**
+**Authorization steps:**
   1. Go on the Collection.
   2. Click on the 3 dots button bottom right or right click.
 
