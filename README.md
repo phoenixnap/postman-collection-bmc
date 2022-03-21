@@ -64,12 +64,12 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
 
 ![image](https://user-images.githubusercontent.com/94684424/159259149-cd62d058-876c-41e6-a786-0a6d9b227803.png)
 
-  3. Go on edit.
+  3. Go on edit. ![image](https://user-images.githubusercontent.com/94684424/159259278-2b47296e-9a33-41ed-96a6-c7c2619d79d6.png)
   4. Go on Authorization.
 
 ![image](https://user-images.githubusercontent.com/94684424/159257108-69fecb30-29de-46f3-b587-6b0e3cf930bd.png)
 
-  5. Get New Access Token.
+  5. Get New Access Token. ![image](https://user-images.githubusercontent.com/94684424/159259340-67273934-af57-4fbe-af46-38553512bfa5.png)
   6. Click Update.
   7. You have generated a token which will be inherited by the individual calls. Repeat the process only for when the token expires.
  
