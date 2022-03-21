@@ -59,19 +59,19 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
   4. The Collection can now be used to make or test API calls. 
 
 **Authorization steps:**
-  1. Go on the Collection.
-  2. Click on the 3 dots button bottom right or right click.
+  1. Go to *Collection*.
+  2. Click on the 3 dots button icon or right click the item.
 
 ![image](https://user-images.githubusercontent.com/94684424/159259149-cd62d058-876c-41e6-a786-0a6d9b227803.png)
 
-  3. Go on edit. ![image](https://user-images.githubusercontent.com/94684424/159259278-2b47296e-9a33-41ed-96a6-c7c2619d79d6.png)
-  4. Go on Authorization.
+  3. Go to *Edit*. ![image](https://user-images.githubusercontent.com/94684424/159259278-2b47296e-9a33-41ed-96a6-c7c2619d79d6.png)
+  4. Go to *Authorization*.
 
 ![image](https://user-images.githubusercontent.com/94684424/159257108-69fecb30-29de-46f3-b587-6b0e3cf930bd.png)
 
-  5. Get New Access Token. ![image](https://user-images.githubusercontent.com/94684424/159259340-67273934-af57-4fbe-af46-38553512bfa5.png)
-  6. Click Update.
-  7. You have generated a token which will be inherited by the individual calls. Repeat the process only for when the token expires.
+  5. Click the *Get New Access Token* button. ![image](https://user-images.githubusercontent.com/94684424/159259340-67273934-af57-4fbe-af46-38553512bfa5.png)
+  6. Click *Update*.
+  7. You have generated a token that will be inherited by the individual calls. Repeat the process only for when the token expires.
  
 :bulb: Parameters and Body Requests are provided as an example in all requests. They need to be changed to reflect your own use. <br>
 :bulb: Environment variables you created for BMC credentials will not be deleted when you update the collection, even though everything else will be refreshed.   <br>
