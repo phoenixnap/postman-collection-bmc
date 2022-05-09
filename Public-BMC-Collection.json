@@ -78,7 +78,7 @@
             "item": [
                 {
                     "event": [],
-                    "id": "eea689f6-35d8-4fa6-8ff8-fb39db0775ac",
+                    "id": "c6770e6f-d5bf-43c4-8436-146ea194379d",
                     "name": "List event logs.",
                     "request": {
                         "auth": null,
@@ -136,7 +136,7 @@
                                     "description": "The HTTP verb corresponding to the action.",
                                     "disabled": false,
                                     "key": "verb",
-                                    "value": "POST"
+                                    "value": "PUT"
                                 },
                                 {
                                     "description": "The request uri.",
@@ -156,11 +156,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "aac558a4-1347-48c9-b7d9-61ca54a13da8",
+                    "id": "e6171a04-e3e3-44fb-ba96-6c11cace256b",
                     "item": [
                         {
                             "event": [],
-                            "id": "9fa04b14-11b6-4e4f-8aab-b6737d9a1793",
+                            "id": "b448fef6-372d-4ad2-8e46-1427e526bb28",
                             "name": "List servers.",
                             "request": {
                                 "auth": null,
@@ -188,13 +188,13 @@
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "tempor officia Excepteur"
+                                            "value": "dolor pariatur eu"
                                         },
                                         {
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "officia Duis adipisicing tempor proident"
+                                            "value": "minim nisi"
                                         }
                                     ],
                                     "variable": []
@@ -203,7 +203,7 @@
                         },
                         {
                             "event": [],
-                            "id": "a6ea7fcb-ae63-42b3-87c3-0459357160f7",
+                            "id": "a39de33e-42a1-42c7-8c13-82f77ff75094",
                             "name": "Create new server.",
                             "request": {
                                 "auth": null,
@@ -246,11 +246,11 @@
                         },
                         {
                             "event": [],
-                            "id": "8dc1d471-b6da-4fea-9401-e5250ef3f009",
+                            "id": "0497e2f0-0307-4363-b51e-9c20b941191a",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "093cd493-ddb4-4aea-b9d4-58f2cb6a7a09",
+                                    "id": "9fc65dab-bdf6-4451-998e-bf5f6a078270",
                                     "name": "Get server.",
                                     "request": {
                                         "auth": null,
@@ -289,7 +289,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "41a52deb-4cdc-4b16-ba65-edef14c8034a",
+                                    "id": "3d93fcd2-3b17-4384-a689-0bdc136eb427",
                                     "name": "Patch a Server.",
                                     "request": {
                                         "auth": null,
@@ -341,7 +341,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "3d098c62-7b38-4448-a86b-d2e8c7dc1fad",
+                                    "id": "5197a1b9-b47e-4b25-9b77-c512940982ca",
                                     "name": "Delete server.",
                                     "request": {
                                         "auth": null,
@@ -380,15 +380,15 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "2c0cf96d-f7c0-403c-96f5-5c8680f7ab59",
+                                    "id": "5632ec4d-31cc-4fb0-b0eb-08ac61f77e6c",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "13b23dfb-0ceb-4040-9816-60cf35ff4952",
+                                            "id": "f71d5848-c8d6-4161-b0d8-abbe716f977b",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "d35cd89e-6312-4a04-8d16-2a61a185cf4a",
+                                                    "id": "b1a8879e-46e2-4720-a7f5-9bde93e20cd7",
                                                     "name": "Assign IP Block to Server.",
                                                     "request": {
                                                         "auth": null,
@@ -402,7 +402,7 @@
                                                             "raw": "{\n    \"id\": \"60473a6115e34466c9f8f083\"\n}"
                                                         },
                                                         "description": {
-                                                            "content": "Adds an IP block to this server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server.",
+                                                            "content": "Adds an IP block to this server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. Manual network configuration changes in the operating system of this server are required.",
                                                             "type": "text/plain"
                                                         },
                                                         "header": [
@@ -443,7 +443,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "0087e764-39bc-4fcd-91b1-d1c1edac714d",
+                                                    "id": "63d86a7e-a69e-452b-90d8-d86197d144d0",
                                                     "name": "Unassign IP Block from Server.",
                                                     "request": {
                                                         "auth": null,
@@ -457,7 +457,7 @@
                                                             "raw": "{\n    \"deleteIpBlocks\": false\n}"
                                                         },
                                                         "description": {
-                                                            "content": "Removes the IP block from the server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure you are able to access this server over remote console in case of misconfiguration.</b>",
+                                                            "content": "Removes the IP block from the server. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. Manual network configuration changes in the operating system of this server are required. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure this server is reachable over remote console for guaranteed access in case of misconfiguration.</b>",
                                                             "type": "text/plain"
                                                         },
                                                         "header": [
@@ -509,11 +509,11 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "99015ff3-fd7f-40d4-94d2-882a64030045",
+                                            "id": "fd2c2937-c0df-47c6-aa70-8e8b5671e280",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "316b0443-eead-4922-879a-dc323a10833a",
+                                                    "id": "5376c65b-a28e-4b6b-a02f-5415aaee10f6",
                                                     "name": "Adds the server to a private network.",
                                                     "request": {
                                                         "auth": null,
@@ -568,12 +568,12 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "43cd6bca-c110-4bc5-97ab-5953f1680404",
+                                                    "id": "434daee7-d1a8-4b6e-9af6-686e167b85e2",
                                                     "name": "Removes the server from private network.",
                                                     "request": {
                                                         "auth": null,
                                                         "description": {
-                                                            "content": "Removes the server from private network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. You are expected to perform network configuration changes in the operating system of this server. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure you are able to access this server over remote console in case of misconfiguration.</b>",
+                                                            "content": "Removes the server from private network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. Manual network configuration changes in the operating system of this server are required. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure this server is reachable over remote console for guaranteed access in case of misconfiguration.</b>",
                                                             "type": "text/plain"
                                                         },
                                                         "header": [
@@ -618,13 +618,125 @@
                                                 }
                                             ],
                                             "name": "private-network-configuration/private-networks"
+                                        },
+                                        {
+                                            "event": [],
+                                            "id": "c235fd69-e316-466b-867b-90fc4d0f6ad0",
+                                            "item": [
+                                                {
+                                                    "event": [],
+                                                    "id": "4a98a5fa-8375-471b-b156-c89d6006eb9d",
+                                                    "name": "Adds the server to a Public Network.",
+                                                    "request": {
+                                                        "auth": null,
+                                                        "body": {
+                                                            "mode": "raw",
+                                                            "options": {
+                                                                "raw": {
+                                                                    "language": "json"
+                                                                }
+                                                            },
+                                                            "raw": "{\n    \"id\": \"60473c2509268bc77fd06d29\",\n    \"ips\": [\n        \"182.16.0.146\",\n        \"182.16.0.147\"\n    ]\n}"
+                                                        },
+                                                        "description": {
+                                                            "content": "Adds the server to a Public Network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. Manual network configuration changes in the operating system of this server are required.",
+                                                            "type": "text/plain"
+                                                        },
+                                                        "header": [
+                                                            {
+                                                                "key": "Content-Type",
+                                                                "value": "application/json"
+                                                            },
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "POST",
+                                                        "name": "Adds the server to a Public Network.",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "public-network-configuration",
+                                                                "public-networks"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "event": [],
+                                                    "id": "9cd4e5ed-29f7-4376-b182-f1e74cc00717",
+                                                    "name": "Removes the server from the Public Network",
+                                                    "request": {
+                                                        "auth": null,
+                                                        "description": {
+                                                            "content": "Removes the server from the Public Network. <b>No actual configuration is performed on the operating system.</b> BMC configures exclusively the networking devices in the datacenter infrastructure. Manual network configuration changes in the operating system of this server are required. <b>This is an advanced network action that can make your server completely unavailable over any network. Make sure this server is reachable over remote console for guaranteed access in case of misconfiguration.</b>",
+                                                            "type": "text/plain"
+                                                        },
+                                                        "header": [
+                                                            {
+                                                                "key": "X-POWERED-BY",
+                                                                "value": "BMC-Postman-Collection"
+                                                            }
+                                                        ],
+                                                        "method": "DELETE",
+                                                        "name": "Removes the server from the Public Network",
+                                                        "url": {
+                                                            "host": [
+                                                                "https://api.phoenixnap.com/bmc/v1"
+                                                            ],
+                                                            "path": [
+                                                                "servers",
+                                                                ":serverId",
+                                                                "network-configuration",
+                                                                "public-network-configuration",
+                                                                "public-networks",
+                                                                ":publicNetworkId"
+                                                            ],
+                                                            "query": [],
+                                                            "variable": [
+                                                                {
+                                                                    "description": "(Required) The server's ID.",
+                                                                    "disabled": false,
+                                                                    "key": "serverId",
+                                                                    "type": "any",
+                                                                    "value": "e6afba51-7de8-4080-83ab-0f915570659c"
+                                                                },
+                                                                {
+                                                                    "description": "(Required) The Public Network identifier.",
+                                                                    "disabled": false,
+                                                                    "key": "publicNetworkId",
+                                                                    "type": "any",
+                                                                    "value": "603f3b2cfcaf050643b89a4b"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "name": "public-network-configuration/public-networks"
                                         }
                                     ],
                                     "name": "network-configuration"
                                 },
                                 {
                                     "event": [],
-                                    "id": "6f26d8e7-5fee-4fb9-9021-7feaa3fd1ee3",
+                                    "id": "ce82b8fb-879b-45c0-ae5d-e7e4fffbdc90",
                                     "name": "Overwrite tags assigned for Server.",
                                     "request": {
                                         "auth": null,
@@ -677,11 +789,11 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "5e6fe137-5185-4a8e-b963-443292cd1221",
+                                    "id": "a51a2677-d7a9-4892-ad46-ab6f7916a5ca",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "2a05c96d-d7fd-4a62-b40a-4758820a61b1",
+                                            "id": "1afcfc39-be41-40c3-9b60-20b4eb2cc372",
                                             "name": "Deprovision a server.",
                                             "request": {
                                                 "auth": null,
@@ -735,7 +847,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "3f4f72e9-a64f-4761-bc08-2df12b6c4879",
+                                            "id": "6077eafe-4771-4c1a-88bf-7c4b17544166",
                                             "name": "Power on server.",
                                             "request": {
                                                 "auth": null,
@@ -776,7 +888,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "414fdf0b-019e-4d08-98ea-306891da41b1",
+                                            "id": "1b54a251-1f02-401a-8529-e17aad1ca8a0",
                                             "name": "Power off server.",
                                             "request": {
                                                 "auth": null,
@@ -817,7 +929,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "6bf55798-3e29-41c4-a00b-738cf690ddba",
+                                            "id": "2e84a247-9919-4acb-8353-3a70406cab24",
                                             "name": "Reboot server.",
                                             "request": {
                                                 "auth": null,
@@ -858,7 +970,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "4928a67f-eeec-4fe3-b6ac-d3ab4b689e79",
+                                            "id": "5d4c8209-fd4c-4c6f-a589-e55b9f6c74d6",
                                             "name": "Shutdown server.",
                                             "request": {
                                                 "auth": null,
@@ -899,7 +1011,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "409340f0-dce5-4a49-951a-ab91adff3425",
+                                            "id": "810a244c-b628-481b-a108-faa27a05f900",
                                             "name": "Reset server.",
                                             "request": {
                                                 "auth": null,
@@ -913,7 +1025,7 @@
                                                     "raw": "{\n    \"installDefaultSshKeys\": true,\n    \"sshKeys\": [\n        \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDF9LdAFElNCi7JoWh6KUcchrJ2Gac1aqGRPpdZNowObpRtmiRCecAMb7bUgNAaNfcmwiQi7tos9TlnFgprIcfMWb8MSs3ABYHmBgqEEt3RWYf0fAc9CsIpJdMCUG28TPGTlRXCEUVNKgLMdcseAlJoGp1CgbHWIN65fB3he3kAZcfpPn5mapV0tsl2p+ZyuAGRYdn5dJv2RZDHUZBkOeUobwsij+weHCKAFmKQKtCP7ybgVHaQjAPrj8MGnk1jBbjDt5ws+Be+9JNjQJee9zCKbAOsIo3i+GcUIkrw5jxPU/RTGlWBcemPaKHdciSzGcjWboapzIy49qypQhZe1U75 user@my_ip\"\n    ],\n    \"sshKeyIds\": [\n        \"5fa54d1e91867c03a0a7b4a4\"\n    ]\n}"
                                                 },
                                                 "description": {
-                                                    "content": "Reset specific server.",
+                                                    "content": "Deprecated: Reset specific server. Reset only supports network configurations of type 'private network' or 'IP blocks'. As an alternative, the suggested action is to deprovision the server and provision a new one with the same configuration.",
                                                     "type": "text/plain"
                                                 },
                                                 "header": [
@@ -953,7 +1065,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "d35d2039-fb1f-455c-b83d-d5eddabf4f86",
+                                            "id": "ccd18777-c5fd-4eea-a838-4a21a9fcf21d",
                                             "name": "Reserve server.",
                                             "request": {
                                                 "auth": null,
@@ -1016,11 +1128,11 @@
                 },
                 {
                     "event": [],
-                    "id": "4d3a19fc-d314-44f9-ab7e-aa8ec2781b6d",
+                    "id": "745945d0-c100-4c9c-8ec9-ac265274c854",
                     "item": [
                         {
                             "event": [],
-                            "id": "b8ccff05-ca0b-4eab-bbdb-d0fadc5c84d6",
+                            "id": "784571a8-bfac-4694-b65c-4539a7605263",
                             "name": "Create SSH Key.",
                             "request": {
                                 "auth": null,
@@ -1063,7 +1175,7 @@
                         },
                         {
                             "event": [],
-                            "id": "f2c8572b-d678-4c62-97ff-fb410e71feb9",
+                            "id": "d1d1bb36-d28d-423e-b476-c5940b4786c9",
                             "name": "List SSH Keys.",
                             "request": {
                                 "auth": null,
@@ -1093,11 +1205,11 @@
                         },
                         {
                             "event": [],
-                            "id": "b9c53539-348b-45f9-be8c-272f285b6bf2",
+                            "id": "513ae513-b547-4d17-9dba-e6193286f973",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "c67c4968-8c93-4bba-9817-a0db20504db2",
+                                    "id": "91557cf9-9be5-4f11-8203-dd9de5e300c6",
                                     "name": "Get SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1136,7 +1248,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "2af6f79f-3f76-4d17-b223-e6f3713d399d",
+                                    "id": "246181bd-0bbe-4d7b-8bf9-903b27607551",
                                     "name": "Delete SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1175,7 +1287,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "dd6d6e42-5d8e-4964-a13d-b8d5b40b9559",
+                                    "id": "9b244427-771e-4841-b088-aeae14723354",
                                     "name": "Edit SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1233,11 +1345,11 @@
                 },
                 {
                     "event": [],
-                    "id": "8d72b016-6306-419b-9c08-4470054f598f",
+                    "id": "ad54c5b7-1fef-4e11-946e-8ccecb9177a8",
                     "item": [
                         {
                             "event": [],
-                            "id": "1edc91fa-e763-4e23-b9b2-cf3972ab16c6",
+                            "id": "5ec9c7fe-855c-4e06-8d64-0ee81c2ac22f",
                             "name": "List quotas",
                             "request": {
                                 "auth": null,
@@ -1267,11 +1379,11 @@
                         },
                         {
                             "event": [],
-                            "id": "fe49b308-9d35-4b0c-9035-2feee79eb7e7",
+                            "id": "c06e0196-fd67-451f-83d8-772a3d509276",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "27a05eed-5ba2-499e-bc86-1896922cce34",
+                                    "id": "50dbd6f3-4aa9-438e-a2da-cf6a6753d833",
                                     "name": "Get a quota.",
                                     "request": {
                                         "auth": null,
@@ -1310,7 +1422,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d6f81879-ab8d-4b50-9115-2efb367d7fd5",
+                                    "id": "7c3254c9-8a84-4067-8743-6661fa90adb1",
                                     "name": "Request quota limit change.",
                                     "request": {
                                         "auth": null,
@@ -1375,11 +1487,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "e3e765d3-cf15-4077-8d54-1b9f91caab62",
+                    "id": "6a09532e-a616-4398-8835-f43a0c67e81a",
                     "item": [
                         {
                             "event": [],
-                            "id": "5342d90a-2227-4439-b826-87699b3a3334",
+                            "id": "f0287495-0576-4286-9907-6c705b030543",
                             "name": "List the rated usage.",
                             "request": {
                                 "auth": null,
@@ -1419,7 +1531,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "SERVER"
+                                            "value": "BANDWIDTH"
                                         }
                                     ],
                                     "variable": []
@@ -1428,7 +1540,7 @@
                         },
                         {
                             "event": [],
-                            "id": "7f22e04f-8c1d-44ef-81d5-15f7becd526d",
+                            "id": "f1a37c69-6aea-4c63-8aa2-2e5103328f46",
                             "name": "List the rated usage records for the current calendar month.",
                             "request": {
                                 "auth": null,
@@ -1457,7 +1569,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "SERVER"
+                                            "value": "BANDWIDTH"
                                         }
                                     ],
                                     "variable": []
@@ -1469,7 +1581,7 @@
                 },
                 {
                     "event": [],
-                    "id": "7b04540c-45b1-41b8-a0b4-0762155c95d0",
+                    "id": "dd0685e4-6146-4dde-819b-b6a49c0d83a1",
                     "name": "List all Products.",
                     "request": {
                         "auth": null,
@@ -1520,11 +1632,11 @@
                 },
                 {
                     "event": [],
-                    "id": "7df765f0-0f95-46fd-97a3-fc8ebdbebeba",
+                    "id": "9b338c47-0c8b-4264-b131-bc90c1364cc2",
                     "item": [
                         {
                             "event": [],
-                            "id": "cc1d154f-b609-4640-80dd-891269208d68",
+                            "id": "84733375-a3ed-4f08-9d2e-a0e27a6f193e",
                             "name": "List all Reservations.",
                             "request": {
                                 "auth": null,
@@ -1552,7 +1664,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "SERVER"
+                                            "value": "BANDWIDTH"
                                         }
                                     ],
                                     "variable": []
@@ -1561,7 +1673,7 @@
                         },
                         {
                             "event": [],
-                            "id": "3e6c604f-df59-42d0-b8b3-f851276f74cc",
+                            "id": "39cfcc9c-5c96-4d5e-a400-c409da1d1877",
                             "name": "Create a reservation.",
                             "request": {
                                 "auth": null,
@@ -1604,11 +1716,11 @@
                         },
                         {
                             "event": [],
-                            "id": "5f85a107-9ccf-46c2-90c5-e7e937402de2",
+                            "id": "6d5b3d62-5f7a-4cdd-a57f-441422ed75d4",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "f36b6bd7-6098-4674-9540-be9dae22fcca",
+                                    "id": "c495e7c7-4a42-446a-85d9-1c9963ca14b8",
                                     "name": "Get a reservation.",
                                     "request": {
                                         "auth": null,
@@ -1647,15 +1759,15 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "89b6ef90-e559-401f-bf22-0b9bcfd039e3",
+                                    "id": "ab25eb3c-21a7-4c7b-985b-72936dc50c5c",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "5b5bbf9a-1e23-4aff-a955-d415913bafa1",
+                                            "id": "cdc08c84-c0fd-48da-b10e-7d40c103d8d2",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "21b96a2b-3f0f-4218-afab-26680cab7f0e",
+                                                    "id": "cb8f2e1e-766a-4262-b035-9bbd0181717a",
                                                     "name": "Disable auto-renewal for reservation by id.",
                                                     "request": {
                                                         "auth": null,
@@ -1666,7 +1778,7 @@
                                                                     "language": "json"
                                                                 }
                                                             },
-                                                            "raw": "{\n    \"autoRenewDisableReason\": \"consectetur\"\n}"
+                                                            "raw": "{\n    \"autoRenewDisableReason\": \"proident esse cillum Lorem eiusmod\"\n}"
                                                         },
                                                         "description": {
                                                             "content": "Disable auto-renewal for reservation by reservation id.",
@@ -1710,7 +1822,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "bfa477f2-fb85-46fd-a212-e209d2b34a41",
+                                                    "id": "bf9a1e1d-e110-4fce-90b0-3fca92147656",
                                                     "name": "Enable auto-renewal for unexpired reservation by reservation id.",
                                                     "request": {
                                                         "auth": null,
@@ -1755,7 +1867,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "06901c95-31df-4514-b9d8-35a2aacdbde9",
+                                            "id": "a77f7e59-0566-40de-af29-b39db7bb1a9c",
                                             "name": "Convert reservation pricing model by reservation ID.",
                                             "request": {
                                                 "auth": null,
@@ -1818,7 +1930,7 @@
                 },
                 {
                     "event": [],
-                    "id": "68c12631-3bd8-4bcf-9819-fb9e5b16f85e",
+                    "id": "49a77156-2aec-461a-88e3-ce3961fcf899",
                     "name": "Retrieves billing configuration associated with the authenticated account.",
                     "request": {
                         "auth": null,
@@ -1849,7 +1961,7 @@
                 },
                 {
                     "event": [],
-                    "id": "17dc567b-27e3-449c-8505-8025fb863775",
+                    "id": "73c73093-1cd0-4d85-87eb-456c960da4d0",
                     "name": "List all Product availabilities.",
                     "request": {
                         "auth": null,
@@ -1918,11 +2030,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "36e2715f-0a41-4559-a85f-5a519348489b",
+                    "id": "8bdce192-4259-405f-b4a8-f87f9f18fda3",
                     "item": [
                         {
                             "event": [],
-                            "id": "212b39f3-9e75-4ca6-958f-9be96d270742",
+                            "id": "347e893b-8f9c-4fd5-ad1c-cfb0f4734da3",
                             "name": "List Private Networks.",
                             "request": {
                                 "auth": null,
@@ -1959,7 +2071,7 @@
                         },
                         {
                             "event": [],
-                            "id": "31e781e3-2a2f-4d5b-bda9-3267b8ff29bd",
+                            "id": "f2d8ae8a-1b78-4c6e-a43f-ec76ad960bbf",
                             "name": "Create a Private Network.",
                             "request": {
                                 "auth": null,
@@ -2002,11 +2114,11 @@
                         },
                         {
                             "event": [],
-                            "id": "3c651f1d-b75e-40da-85b3-48aa6003514b",
+                            "id": "657e9e7e-79bd-490f-9e91-abbce471aff2",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "202cd068-4d66-40ea-8362-55e41c2da735",
+                                    "id": "76374b4d-044d-4c12-a1d3-b715779aa6a7",
                                     "name": "Get a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2045,7 +2157,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "86e2eafa-76f4-40b1-80e7-9095db486810",
+                                    "id": "26942d1e-332e-4318-9f8a-a7804da3022b",
                                     "name": "Update a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2097,7 +2209,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "f50fa681-c018-4cf1-8a66-b0e2dcc47de1",
+                                    "id": "87481347-131d-4361-b38c-843624227a87",
                                     "name": "Delete a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2139,6 +2251,338 @@
                         }
                     ],
                     "name": "private-networks"
+                },
+                {
+                    "event": [],
+                    "id": "b9ad2d40-9ed2-4422-b41b-9261b10f7f4f",
+                    "item": [
+                        {
+                            "event": [],
+                            "id": "c5337cac-d005-4917-a18b-f87e2f17de11",
+                            "name": "List Public Networks.",
+                            "request": {
+                                "auth": null,
+                                "description": {
+                                    "content": "List all Public Networks owned by account.",
+                                    "type": "text/plain"
+                                },
+                                "header": [
+                                    {
+                                        "key": "X-POWERED-BY",
+                                        "value": "BMC-Postman-Collection"
+                                    }
+                                ],
+                                "method": "GET",
+                                "name": "List Public Networks.",
+                                "url": {
+                                    "host": [
+                                        "https://api.phoenixnap.com/networks/v1"
+                                    ],
+                                    "path": [
+                                        "public-networks"
+                                    ],
+                                    "query": [
+                                        {
+                                            "description": "If present will filter the result by the given location of the Public Networks.",
+                                            "disabled": false,
+                                            "key": "location",
+                                            "value": "PHX"
+                                        }
+                                    ],
+                                    "variable": []
+                                }
+                            }
+                        },
+                        {
+                            "event": [],
+                            "id": "40383c85-6681-403e-b633-5e69d238243a",
+                            "name": "Create a public network.",
+                            "request": {
+                                "auth": null,
+                                "body": {
+                                    "mode": "raw",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    },
+                                    "raw": "{\n    \"name\": \"Initial public network\",\n    \"location\": \"PHX\"\n}"
+                                },
+                                "description": {
+                                    "content": "Create a public network.",
+                                    "type": "text/plain"
+                                },
+                                "header": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    },
+                                    {
+                                        "key": "X-POWERED-BY",
+                                        "value": "BMC-Postman-Collection"
+                                    }
+                                ],
+                                "method": "POST",
+                                "name": "Create a public network.",
+                                "url": {
+                                    "host": [
+                                        "https://api.phoenixnap.com/networks/v1"
+                                    ],
+                                    "path": [
+                                        "public-networks"
+                                    ],
+                                    "query": [],
+                                    "variable": []
+                                }
+                            }
+                        },
+                        {
+                            "event": [],
+                            "id": "3276c1f2-3a48-4e19-b768-e702db0cb7b3",
+                            "item": [
+                                {
+                                    "event": [],
+                                    "id": "29b444f3-a50d-45e5-9273-be679c62d960",
+                                    "name": "Get a Public Network.",
+                                    "request": {
+                                        "auth": null,
+                                        "description": {
+                                            "content": "Retrieve Public Network Details.",
+                                            "type": "text/plain"
+                                        },
+                                        "header": [
+                                            {
+                                                "key": "X-POWERED-BY",
+                                                "value": "BMC-Postman-Collection"
+                                            }
+                                        ],
+                                        "method": "GET",
+                                        "name": "Get a Public Network.",
+                                        "url": {
+                                            "host": [
+                                                "https://api.phoenixnap.com/networks/v1"
+                                            ],
+                                            "path": [
+                                                "public-networks",
+                                                ":publicNetworkId"
+                                            ],
+                                            "query": [],
+                                            "variable": [
+                                                {
+                                                    "description": "(Required) The Public Network identifier.",
+                                                    "disabled": false,
+                                                    "key": "publicNetworkId",
+                                                    "type": "any",
+                                                    "value": "603f3b2cfcaf050643b89a4b"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "event": [],
+                                    "id": "d1885496-494d-4368-bc71-aaedc029650d",
+                                    "name": "Update Public Network's Details.",
+                                    "request": {
+                                        "auth": null,
+                                        "body": {
+                                            "mode": "raw",
+                                            "options": {
+                                                "raw": {
+                                                    "language": "json"
+                                                }
+                                            },
+                                            "raw": "{\n    \"name\": \"My public network\",\n    \"description\": \"The new description of my public network\"\n}"
+                                        },
+                                        "description": {
+                                            "content": "Update Public Network's Details.",
+                                            "type": "text/plain"
+                                        },
+                                        "header": [
+                                            {
+                                                "key": "Content-Type",
+                                                "value": "application/json"
+                                            },
+                                            {
+                                                "key": "X-POWERED-BY",
+                                                "value": "BMC-Postman-Collection"
+                                            }
+                                        ],
+                                        "method": "PATCH",
+                                        "name": "Update Public Network's Details.",
+                                        "url": {
+                                            "host": [
+                                                "https://api.phoenixnap.com/networks/v1"
+                                            ],
+                                            "path": [
+                                                "public-networks",
+                                                ":publicNetworkId"
+                                            ],
+                                            "query": [],
+                                            "variable": [
+                                                {
+                                                    "description": "(Required) The Public Network identifier.",
+                                                    "disabled": false,
+                                                    "key": "publicNetworkId",
+                                                    "type": "any",
+                                                    "value": "603f3b2cfcaf050643b89a4b"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "event": [],
+                                    "id": "829072d7-0665-4378-8e7b-8f3254420d9b",
+                                    "name": "Delete a Public Network.",
+                                    "request": {
+                                        "auth": null,
+                                        "description": {
+                                            "content": "Delete Public Network. The request is accepted only if no resources are members of this network. The IP Block(s) will be freed and can be re-used in the future.",
+                                            "type": "text/plain"
+                                        },
+                                        "header": [
+                                            {
+                                                "key": "X-POWERED-BY",
+                                                "value": "BMC-Postman-Collection"
+                                            }
+                                        ],
+                                        "method": "DELETE",
+                                        "name": "Delete a Public Network.",
+                                        "url": {
+                                            "host": [
+                                                "https://api.phoenixnap.com/networks/v1"
+                                            ],
+                                            "path": [
+                                                "public-networks",
+                                                ":publicNetworkId"
+                                            ],
+                                            "query": [],
+                                            "variable": [
+                                                {
+                                                    "description": "(Required) The Public Network identifier.",
+                                                    "disabled": false,
+                                                    "key": "publicNetworkId",
+                                                    "type": "any",
+                                                    "value": "603f3b2cfcaf050643b89a4b"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "event": [],
+                                    "id": "12599232-baa6-47af-bd43-ff0f6ffdeec6",
+                                    "item": [
+                                        {
+                                            "event": [],
+                                            "id": "7c06a2d6-33b8-4a7c-bd90-76cef0d96fbd",
+                                            "name": "Adds an IP block to this public network.",
+                                            "request": {
+                                                "auth": null,
+                                                "body": {
+                                                    "mode": "raw",
+                                                    "options": {
+                                                        "raw": {
+                                                            "language": "json"
+                                                        }
+                                                    },
+                                                    "raw": "{\n    \"id\": \"60473a6115e34466c9f8f083\"\n}"
+                                                },
+                                                "description": {
+                                                    "content": "Adds an IP block to this public network.",
+                                                    "type": "text/plain"
+                                                },
+                                                "header": [
+                                                    {
+                                                        "key": "Content-Type",
+                                                        "value": "application/json"
+                                                    },
+                                                    {
+                                                        "key": "X-POWERED-BY",
+                                                        "value": "BMC-Postman-Collection"
+                                                    }
+                                                ],
+                                                "method": "POST",
+                                                "name": "Adds an IP block to this public network.",
+                                                "url": {
+                                                    "host": [
+                                                        "https://api.phoenixnap.com/networks/v1"
+                                                    ],
+                                                    "path": [
+                                                        "public-networks",
+                                                        ":publicNetworkId",
+                                                        "ip-blocks"
+                                                    ],
+                                                    "query": [],
+                                                    "variable": [
+                                                        {
+                                                            "description": "(Required) The Public Network identifier.",
+                                                            "disabled": false,
+                                                            "key": "publicNetworkId",
+                                                            "type": "any",
+                                                            "value": "603f3b2cfcaf050643b89a4b"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "event": [],
+                                            "id": "cc3f4ecc-1b0d-4e4a-83cb-a7d7bcf9846f",
+                                            "name": "Removes the IP Block from the Public Network.",
+                                            "request": {
+                                                "auth": null,
+                                                "description": {
+                                                    "content": "Removes the IP Block from the Public Network. The result of this is that any traffic addressed to any IP within the block will not be routed to this network anymore. Please ensure that no resource members within this network have any IPs assigned from the IP Block being removed.",
+                                                    "type": "text/plain"
+                                                },
+                                                "header": [
+                                                    {
+                                                        "key": "X-POWERED-BY",
+                                                        "value": "BMC-Postman-Collection"
+                                                    }
+                                                ],
+                                                "method": "DELETE",
+                                                "name": "Removes the IP Block from the Public Network.",
+                                                "url": {
+                                                    "host": [
+                                                        "https://api.phoenixnap.com/networks/v1"
+                                                    ],
+                                                    "path": [
+                                                        "public-networks",
+                                                        ":publicNetworkId",
+                                                        "ip-blocks",
+                                                        ":ipBlockId"
+                                                    ],
+                                                    "query": [],
+                                                    "variable": [
+                                                        {
+                                                            "description": "(Required) The Public Network identifier.",
+                                                            "disabled": false,
+                                                            "key": "publicNetworkId",
+                                                            "type": "any",
+                                                            "value": "603f3b2cfcaf050643b89a4b"
+                                                        },
+                                                        {
+                                                            "description": "(Required) The IP Block identifier.",
+                                                            "disabled": false,
+                                                            "key": "ipBlockId",
+                                                            "type": "any",
+                                                            "value": "6047127fed34ecc3ba8402d2"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "ip-blocks"
+                                }
+                            ],
+                            "name": "{public Network Id}"
+                        }
+                    ],
+                    "name": "public-networks"
                 }
             ],
             "name": "Networks API"
@@ -2147,11 +2591,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "f0e23a33-5143-485d-8540-8caf874bdc72",
+                    "id": "3987507d-55cb-4f6a-ab8f-8d5419c9e913",
                     "item": [
                         {
                             "event": [],
-                            "id": "2d23a013-fc8a-4fc9-9a6f-e4251f2ab547",
+                            "id": "49c0d195-fc2c-465a-8f30-b056843d15f0",
                             "name": "List IP Blocks.",
                             "request": {
                                 "auth": null,
@@ -2194,7 +2638,7 @@
                         },
                         {
                             "event": [],
-                            "id": "8405ae97-9063-47d9-b5d8-eac9924dd609",
+                            "id": "3a54a039-0567-4e4d-90a0-96f35041fb67",
                             "name": "Create an IP Block.",
                             "request": {
                                 "auth": null,
@@ -2237,11 +2681,11 @@
                         },
                         {
                             "event": [],
-                            "id": "ab226dd7-a726-4ec6-bf61-7e4028720aa3",
+                            "id": "9e063a9b-f090-4c6c-829d-c58ee438787f",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "fa3ffde9-4eb9-4c42-9717-05abfb44c3a1",
+                                    "id": "b1c4167d-8799-439d-885b-5dad019d5406",
                                     "name": "Get IP Block.",
                                     "request": {
                                         "auth": null,
@@ -2280,7 +2724,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "4034be22-fb1c-4613-86ca-4f9db8a112fc",
+                                    "id": "f9ffb68e-763a-45f2-9772-0b76d5c9ec7a",
                                     "name": "Delete IP Block.",
                                     "request": {
                                         "auth": null,
@@ -2319,7 +2763,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "51001da8-7879-4f5a-b9b5-58c06014e9e7",
+                                    "id": "ea475ac9-0aec-43d8-b03a-13d29edd209d",
                                     "name": "Update IP block.",
                                     "request": {
                                         "auth": null,
@@ -2371,7 +2815,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "7a09aebf-5bfb-413f-bb02-cd419b59043d",
+                                    "id": "37b04098-dc28-4418-bc68-1f379f21dd4b",
                                     "name": "Overwrite tags assigned for IP Block.",
                                     "request": {
                                         "auth": null,
@@ -2435,11 +2879,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "a36b7277-c1fd-4661-a544-415cc21dd57a",
+                    "id": "7daf1433-a3d5-4751-8b1b-d3ad8be38fc2",
                     "item": [
                         {
                             "event": [],
-                            "id": "7b08c5e0-dd25-4b2f-bef6-5c267fb3431f",
+                            "id": "56c57dc6-1a1a-4472-9b01-54e5750b03c7",
                             "name": "Create a Rancher Server Deployment.",
                             "request": {
                                 "auth": null,
@@ -2482,7 +2926,7 @@
                         },
                         {
                             "event": [],
-                            "id": "7fe79ce2-fc03-42a6-99a3-acc98b5156b9",
+                            "id": "cf83a14c-a8a8-4f36-93bf-a5c04b2eee23",
                             "name": "Cluster list.",
                             "request": {
                                 "auth": null,
@@ -2512,11 +2956,11 @@
                         },
                         {
                             "event": [],
-                            "id": "bd9bc429-ab76-4410-9369-ebed20df9259",
+                            "id": "4b938b23-5319-47d6-9a9d-a273b6af668c",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "4acd420b-6718-4c93-a030-5f901acab9c8",
+                                    "id": "c114a164-3698-4f72-af92-ad7a85c812f7",
                                     "name": "Retrieve a Cluster",
                                     "request": {
                                         "auth": null,
@@ -2555,7 +2999,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "9db08d77-4540-4992-b1ce-b35cb9d54858",
+                                    "id": "981e533a-bed3-480b-8804-7f6dcb39863a",
                                     "name": "Delete a cluster.",
                                     "request": {
                                         "auth": null,
@@ -2605,11 +3049,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "a5807a34-bec0-4d0f-96ba-6aa6f356df1d",
+                    "id": "2f56b80d-9e9d-424a-bbf4-b60556baaf3d",
                     "item": [
                         {
                             "event": [],
-                            "id": "57cbd553-3f93-485b-8441-648117a27195",
+                            "id": "346afc42-7372-44df-b567-19bb1123f6d1",
                             "name": "List tags.",
                             "request": {
                                 "auth": null,
@@ -2646,7 +3090,7 @@
                         },
                         {
                             "event": [],
-                            "id": "9e05968c-1ea4-4d4d-b46c-0680b7e28696",
+                            "id": "e6e2db8c-9030-41ff-9e40-560ab11b6742",
                             "name": "Create a Tag.",
                             "request": {
                                 "auth": null,
@@ -2689,11 +3133,11 @@
                         },
                         {
                             "event": [],
-                            "id": "db3e81ab-8c51-4359-9a29-6c1b112531c9",
+                            "id": "8e6fd1c9-332f-4f8c-a0b0-06b50bc6cece",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "d46b56ba-ad3a-4ac9-87f1-2b0544866f1a",
+                                    "id": "5c9d6f67-24e2-428a-8a1a-30abddd51f91",
                                     "name": "Get a Tag.",
                                     "request": {
                                         "auth": null,
@@ -2732,7 +3176,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "51821476-850e-4d88-b25f-23a06771e47a",
+                                    "id": "8c050437-2fa9-4b72-bb09-f056825d740f",
                                     "name": "Modify a Tag.",
                                     "request": {
                                         "auth": null,
@@ -2784,7 +3228,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "b8958e4b-6809-4acb-942a-063338e3939a",
+                                    "id": "6373327c-0dff-4daa-a70a-5c70aa64bb13",
                                     "name": "Delete a Tag.",
                                     "request": {
                                         "auth": null,
