@@ -78,7 +78,7 @@
             "item": [
                 {
                     "event": [],
-                    "id": "ce2ac249-a153-4968-95be-a3215075b1e5",
+                    "id": "0bb75718-d94a-4cc5-83a8-fc7c8fbb5f49",
                     "name": "List event logs.",
                     "request": {
                         "auth": null,
@@ -136,7 +136,7 @@
                                     "description": "The HTTP verb corresponding to the action.",
                                     "disabled": false,
                                     "key": "verb",
-                                    "value": "POST"
+                                    "value": "PATCH"
                                 },
                                 {
                                     "description": "The request uri.",
@@ -156,11 +156,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "bc891fe2-9185-4509-bf9e-507f073a3396",
+                    "id": "23f0efe8-cc17-4a7c-aaad-07deff5377cf",
                     "item": [
                         {
                             "event": [],
-                            "id": "ef8dbe42-b5df-46ed-bc93-7ed0fb4de499",
+                            "id": "1b7e6ecf-6f16-47ea-bf8f-74aa622362dc",
                             "name": "List servers.",
                             "request": {
                                 "auth": null,
@@ -188,13 +188,13 @@
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "consequat qui"
+                                            "value": "sed velit "
                                         },
                                         {
                                             "description": "A list of query parameters related to tags in the form of tagName.tagValue",
                                             "disabled": false,
                                             "key": "tag",
-                                            "value": "sint eu"
+                                            "value": "nisi do"
                                         }
                                     ],
                                     "variable": []
@@ -203,7 +203,7 @@
                         },
                         {
                             "event": [],
-                            "id": "3f281a27-6b6f-437b-8670-8babadcd829b",
+                            "id": "90c86809-ac45-4abd-81da-f92edbe020f5",
                             "name": "Create new server.",
                             "request": {
                                 "auth": null,
@@ -253,11 +253,11 @@
                         },
                         {
                             "event": [],
-                            "id": "96321ee4-99ef-4a4a-8444-a70d8f041871",
+                            "id": "93c583c4-e228-4586-82ca-2f7dc0384b3b",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "c6e092a0-5145-4856-8e07-15e1fa62dbaf",
+                                    "id": "c3a5b90e-fe86-4cd9-a5a8-b1fb80b7759f",
                                     "name": "Get server.",
                                     "request": {
                                         "auth": null,
@@ -296,7 +296,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "93e34b94-5069-4fa1-8f80-c8e24fcf9faa",
+                                    "id": "5553ee2c-eece-460d-b010-7fbdaaf9c5fc",
                                     "name": "Patch a Server.",
                                     "request": {
                                         "auth": null,
@@ -348,7 +348,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "9a01acd0-14db-452b-b59d-8147e68066f1",
+                                    "id": "1f2cf931-417d-4aa7-8c84-40f32dfbfc19",
                                     "name": "Delete server.",
                                     "request": {
                                         "auth": null,
@@ -387,15 +387,15 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "e5dbc4f1-dcd2-4d15-bf68-7401d7ef5b71",
+                                    "id": "2f50284e-67cc-415e-ae7a-614a2d9d8787",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "a58b8e55-8bb0-4a42-a054-edaebb5ebfe5",
+                                            "id": "6e8471fd-1312-4a1a-beea-f2cf26e8823d",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "735cb809-b8a6-4afe-a5e1-1f1dac8b2660",
+                                                    "id": "86932013-07be-42ab-8db1-f48cc458e496",
                                                     "name": "Assign IP Block to Server.",
                                                     "request": {
                                                         "auth": null,
@@ -450,7 +450,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "ca04097f-e053-42f1-8fa8-349aadb4e476",
+                                                    "id": "da9a7825-0b3a-4ff9-b507-64f1cd3a9d79",
                                                     "name": "Unassign IP Block from Server.",
                                                     "request": {
                                                         "auth": null,
@@ -516,11 +516,11 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "0d397e83-bdb5-4dff-873c-84c26ade3d59",
+                                            "id": "9a5c8c94-36b3-41e6-a664-b75bbee7eda6",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "b48b9244-dda3-4dbc-8c7e-b5443fe74296",
+                                                    "id": "a959c1f5-da95-4ba4-8c4e-5d2a9ba752be",
                                                     "name": "Adds the server to a private network.",
                                                     "request": {
                                                         "auth": null,
@@ -582,7 +582,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "8fb3d8e8-b382-45fa-9f26-4e407397a156",
+                                                    "id": "c6342c70-1e65-43e6-9af6-053b6a940922",
                                                     "name": "Removes the server from private network.",
                                                     "request": {
                                                         "auth": null,
@@ -635,11 +635,11 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "615b8bce-1c89-4f41-a9c5-0ae1ed449d63",
+                                            "id": "2a9d2ab3-777f-4b1a-b9d0-6355e8e77ef3",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "6f29d7cb-572a-443e-b84f-6891fcba5e25",
+                                                    "id": "7eb61951-2bf0-4474-9fb9-8b8671f8683a",
                                                     "name": "Adds the server to a Public Network.",
                                                     "request": {
                                                         "auth": null,
@@ -701,7 +701,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "a6f453a5-2c1e-4777-8f10-b1a5c148007a",
+                                                    "id": "958a8744-e0b8-48ea-ad0a-3f556c65629a",
                                                     "name": "Removes the server from the Public Network",
                                                     "request": {
                                                         "auth": null,
@@ -757,7 +757,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "effa70e4-5062-49a0-8bae-951a32e40359",
+                                    "id": "018c6e17-af8c-4ab1-aa5f-edca4ffa6a96",
                                     "name": "Overwrite tags assigned for Server.",
                                     "request": {
                                         "auth": null,
@@ -810,11 +810,11 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "b4055fd7-5e88-4aa0-948e-316789a08bf0",
+                                    "id": "45960c90-c88a-493e-ad47-56875dade1ef",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "4aa9d6e5-25aa-4cc1-af4e-1151506c72ec",
+                                            "id": "084d90af-112f-43d4-8ca8-a4c2ca09b8c5",
                                             "name": "Deprovision a server.",
                                             "request": {
                                                 "auth": null,
@@ -868,7 +868,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "bd8f74cc-2d57-408f-b670-f3a7f002cc17",
+                                            "id": "f795c9df-4ca7-4b8d-b30d-5837d0ef7cbf",
                                             "name": "Power on server.",
                                             "request": {
                                                 "auth": null,
@@ -909,7 +909,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "2825b418-40e9-407d-ad81-5724cea64f0c",
+                                            "id": "05ff54e8-52f3-4e68-bca4-1b1337fd62f7",
                                             "name": "Power off server.",
                                             "request": {
                                                 "auth": null,
@@ -950,7 +950,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "02aa3358-8f36-4433-81e6-c9b417db92e1",
+                                            "id": "6ac0b432-cbd2-4e19-b100-5ad879e2cf82",
                                             "name": "Reboot server.",
                                             "request": {
                                                 "auth": null,
@@ -991,7 +991,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "e970f088-8e69-4e0a-82c0-597c523db189",
+                                            "id": "00e69311-5125-4d9e-897d-a5f57f50ccb0",
                                             "name": "Shutdown server.",
                                             "request": {
                                                 "auth": null,
@@ -1032,7 +1032,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "e3e287c2-244a-41a6-bbbc-6b586b2e826d",
+                                            "id": "690a87d7-17cb-4a01-ad8c-f3e1688a441b",
                                             "name": "Reset server.",
                                             "request": {
                                                 "auth": null,
@@ -1086,7 +1086,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "df2781ad-7083-43b5-9f76-090e887f2ce8",
+                                            "id": "c74c3e40-639b-41d5-8130-2d443940507a",
                                             "name": "Reserve server.",
                                             "request": {
                                                 "auth": null,
@@ -1149,11 +1149,11 @@
                 },
                 {
                     "event": [],
-                    "id": "36a4a4ff-1c50-40d4-ac1f-6a3fcffe7c7c",
+                    "id": "7249cb9d-4892-413e-b8c3-8eb34dd8d3db",
                     "item": [
                         {
                             "event": [],
-                            "id": "bbb0ba0a-f8bb-4172-8ae6-b90ae2b3ac85",
+                            "id": "51a966b2-9c32-48da-9c83-6ef82a65ddf3",
                             "name": "Create SSH Key.",
                             "request": {
                                 "auth": null,
@@ -1196,7 +1196,7 @@
                         },
                         {
                             "event": [],
-                            "id": "c030359a-0767-416d-aec7-5f0bc5730d43",
+                            "id": "77a98d1d-472d-43aa-9815-5da54c22dbf6",
                             "name": "List SSH Keys.",
                             "request": {
                                 "auth": null,
@@ -1226,11 +1226,11 @@
                         },
                         {
                             "event": [],
-                            "id": "337eaf31-9971-4c8c-89ad-677533b8027b",
+                            "id": "3b3294c1-a8e7-46f1-bd5e-2f1859c0a44b",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "92187aa4-6d35-48c1-889d-28ead1d2619d",
+                                    "id": "060b7813-1609-4e56-87c2-0858b6f6e23e",
                                     "name": "Get SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1269,7 +1269,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "9e3d8cf6-1de2-451b-a3d0-6b5d4452d928",
+                                    "id": "bf46da73-ece3-44e7-90a3-a210d3475851",
                                     "name": "Delete SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1308,7 +1308,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "b1d8cdbd-6155-4d89-b9a6-141646e14dcb",
+                                    "id": "d1325933-8969-4ba6-bb0b-f78d8d5ced6d",
                                     "name": "Edit SSH Key.",
                                     "request": {
                                         "auth": null,
@@ -1366,11 +1366,11 @@
                 },
                 {
                     "event": [],
-                    "id": "e88171e6-3395-4025-acac-b6c0b0e8a55f",
+                    "id": "827140ae-cbc9-4595-867f-294b37277f8e",
                     "item": [
                         {
                             "event": [],
-                            "id": "04073f07-266f-4d5a-9a8e-730891982cba",
+                            "id": "9cbd5484-c9c2-4f6e-95bd-1037c2886a69",
                             "name": "List quotas",
                             "request": {
                                 "auth": null,
@@ -1400,11 +1400,11 @@
                         },
                         {
                             "event": [],
-                            "id": "362b451f-398f-4e3f-acd2-f470bd57b390",
+                            "id": "9ef52a36-f75c-4b1e-a9f7-90be3db1e28b",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "3fc77994-4689-4fdb-858d-aef4e02ab480",
+                                    "id": "21973bd4-5c02-490e-8a6d-b8a940ceb4ec",
                                     "name": "Get a quota.",
                                     "request": {
                                         "auth": null,
@@ -1443,7 +1443,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "c5ec4318-539a-43c5-829d-d2acc53f5402",
+                                    "id": "3a09af7d-ea23-41b7-9b08-f7208250f96c",
                                     "name": "Request quota limit change.",
                                     "request": {
                                         "auth": null,
@@ -1508,11 +1508,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "5ad47c03-6ee4-4491-8917-9641be52e9b9",
+                    "id": "4365b60e-2cbb-405f-b5cc-4c55c9eead77",
                     "item": [
                         {
                             "event": [],
-                            "id": "ceacb1c0-f24b-467f-bae0-b60243fcd2b4",
+                            "id": "73a52276-5ff2-4002-a6c4-3efc9df15f74",
                             "name": "List all storage networks.",
                             "request": {
                                 "auth": null,
@@ -1549,7 +1549,7 @@
                         },
                         {
                             "event": [],
-                            "id": "0e5eca11-9b8d-4d38-a3a3-c0d630c5acc4",
+                            "id": "eb508378-caed-4d0b-bf9c-d6a117c56c84",
                             "name": "Create a storage network and volume.",
                             "request": {
                                 "auth": null,
@@ -1592,11 +1592,11 @@
                         },
                         {
                             "event": [],
-                            "id": "fb8b2db6-c4d8-473f-aa7c-7a4ce4ca0d9f",
+                            "id": "903138dc-3d7f-47d4-ab45-5e66957cde19",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "f6b50860-155e-426d-b589-20350f3ea012",
+                                    "id": "d7b9d723-6224-4b03-9be4-f1db40e6f15c",
                                     "name": "Get storage network details.",
                                     "request": {
                                         "auth": null,
@@ -1635,7 +1635,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "996f22ce-0fb1-4f7a-9ef2-7ae012a14525",
+                                    "id": "0600da3f-b986-4916-8f83-76b682abd9e5",
                                     "name": "Update storage network details.",
                                     "request": {
                                         "auth": null,
@@ -1687,7 +1687,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "8f8ede45-4cba-4f74-a499-a1075d041b56",
+                                    "id": "b8fe78b9-c9bc-4c6e-996b-e194e30316fb",
                                     "name": "Delete a storage network and its volume.",
                                     "request": {
                                         "auth": null,
@@ -1726,11 +1726,11 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "cd6f3ffe-9953-4793-9152-b4e40ae5a590",
+                                    "id": "bc92017e-174e-4e15-9e7c-6a117f89c8aa",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "867a395d-86bd-4a17-84d0-a50e7e1aa59f",
+                                            "id": "c19ca2f2-91f2-4d83-aff0-7fc1b4480562",
                                             "name": "Display one or more volumes belonging to a storage network.",
                                             "request": {
                                                 "auth": null,
@@ -1770,7 +1770,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "161971a3-71e0-4ab4-8008-0da55bea45f5",
+                                            "id": "451a64ed-9885-4f63-877f-5ffb0b1b6681",
                                             "name": "Create a volume belonging to a storage network.",
                                             "request": {
                                                 "auth": null,
@@ -1823,11 +1823,11 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "014fb788-0833-4143-8290-5926d251843a",
+                                            "id": "45437d92-6b6a-4c38-9371-d9c2043ecb0e",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "efba0ebb-76be-4e42-acf0-6bf755220c85",
+                                                    "id": "d5dba613-b4cf-44f8-8e2d-269b08352048",
                                                     "name": "Get a storage network's volume details.",
                                                     "request": {
                                                         "auth": null,
@@ -1875,7 +1875,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "4dbbe744-9205-4111-a333-7586fe6b367b",
+                                                    "id": "35bbd198-05da-41b6-b568-c29991aebf83",
                                                     "name": "Update a storage network's volume details.",
                                                     "request": {
                                                         "auth": null,
@@ -1936,7 +1936,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "b00dbfe8-eac6-4a75-a32d-acc5c04252dd",
+                                                    "id": "979dc426-267b-4eab-80af-d86bc64589b9",
                                                     "name": "Delete a Storage Network's Volume",
                                                     "request": {
                                                         "auth": null,
@@ -2001,11 +2001,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "7a9c3c14-2940-47a8-9640-c5852807136f",
+                    "id": "ba975b39-5c26-440c-a0ec-96e46dc9ed42",
                     "item": [
                         {
                             "event": [],
-                            "id": "a0bc077e-6823-4812-9745-cfd43b431af7",
+                            "id": "ae064bfb-168a-43dd-86c7-bd17f356153d",
                             "name": "List the rated usage.",
                             "request": {
                                 "auth": null,
@@ -2045,7 +2045,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "OPERATING_SYSTEM"
+                                            "value": "SERVER"
                                         }
                                     ],
                                     "variable": []
@@ -2054,7 +2054,7 @@
                         },
                         {
                             "event": [],
-                            "id": "1afa2905-d346-458e-970f-8acc781b0c94",
+                            "id": "0203e471-0069-4785-8762-981cef403555",
                             "name": "List the rated usage records for the current calendar month.",
                             "request": {
                                 "auth": null,
@@ -2083,7 +2083,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "OPERATING_SYSTEM"
+                                            "value": "SERVER"
                                         }
                                     ],
                                     "variable": []
@@ -2095,7 +2095,7 @@
                 },
                 {
                     "event": [],
-                    "id": "cf61ec71-9ed6-4cce-bd04-df523bd7a916",
+                    "id": "48951a6e-0cc6-4763-83fb-267bd41fe423",
                     "name": "List all Products.",
                     "request": {
                         "auth": null,
@@ -2146,11 +2146,11 @@
                 },
                 {
                     "event": [],
-                    "id": "d2b31bb3-fbdc-4a07-9413-8e2ad7ead730",
+                    "id": "9e543ea3-4b2d-4158-ae0c-3793ba579435",
                     "item": [
                         {
                             "event": [],
-                            "id": "9ac5b9ea-df54-4ebf-896a-84f4626df152",
+                            "id": "7ba8a27d-bc51-434b-8c55-4056ed9477d5",
                             "name": "List all Reservations.",
                             "request": {
                                 "auth": null,
@@ -2178,7 +2178,7 @@
                                             "description": "The product category",
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "OPERATING_SYSTEM"
+                                            "value": "SERVER"
                                         }
                                     ],
                                     "variable": []
@@ -2187,7 +2187,7 @@
                         },
                         {
                             "event": [],
-                            "id": "ed4a11d6-74f3-4fd2-8b47-72c5472b442b",
+                            "id": "2ba57e4f-6ccc-40ed-9813-f35837ade458",
                             "name": "Create a reservation.",
                             "request": {
                                 "auth": null,
@@ -2230,11 +2230,11 @@
                         },
                         {
                             "event": [],
-                            "id": "bca9cd1c-eab5-4b0c-99c7-cf8cd5db89c8",
+                            "id": "15db39d0-ab74-4ded-ab6e-fca1789b3088",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "77f252d2-fc2c-4d13-9153-a30bfe922191",
+                                    "id": "caaf0fd3-8236-4cf8-9540-d88c5ac68491",
                                     "name": "Get a reservation.",
                                     "request": {
                                         "auth": null,
@@ -2273,15 +2273,15 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "56dd4be9-0f4d-43ee-bb15-7fab95257a58",
+                                    "id": "cf89b20a-e40d-4d2d-99fa-1f145f89107f",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "eea3bb23-84d5-4607-a815-67df35c68926",
+                                            "id": "35cde8be-35a1-4f80-b854-048fcc64d4bc",
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "d1ff186e-2126-4562-b4b3-a9e46128e57f",
+                                                    "id": "1fd04790-df92-445a-a3c2-34116762a15e",
                                                     "name": "Disable auto-renewal for reservation by id.",
                                                     "request": {
                                                         "auth": null,
@@ -2292,7 +2292,7 @@
                                                                     "language": "json"
                                                                 }
                                                             },
-                                                            "raw": "{\n    \"autoRenewDisableReason\": \"inc\"\n}"
+                                                            "raw": "{\n    \"autoRenewDisableReason\": \"eiusmod\"\n}"
                                                         },
                                                         "description": {
                                                             "content": "Disable auto-renewal for reservation by reservation id.",
@@ -2336,7 +2336,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "121b2a67-cdb4-447f-ab9a-958795746aaa",
+                                                    "id": "ced2ce4e-9eae-4203-8cef-1f461b5ad720",
                                                     "name": "Enable auto-renewal for unexpired reservation by reservation id.",
                                                     "request": {
                                                         "auth": null,
@@ -2381,7 +2381,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "f5f4a72f-6e65-4a46-ab0d-2c0d099cdbe6",
+                                            "id": "30e09ff5-54db-4765-9ff1-edf7049ac7f0",
                                             "name": "Convert reservation pricing model by reservation ID.",
                                             "request": {
                                                 "auth": null,
@@ -2444,7 +2444,7 @@
                 },
                 {
                     "event": [],
-                    "id": "dfacaaa7-fc8b-498f-afe4-54c793d0357a",
+                    "id": "ed8b6618-ce21-4e6d-a6ee-f6e9165aa66f",
                     "name": "Retrieves billing configuration associated with the authenticated account.",
                     "request": {
                         "auth": null,
@@ -2475,7 +2475,7 @@
                 },
                 {
                     "event": [],
-                    "id": "6d7d921e-8a7a-4536-a466-6b0430f62bab",
+                    "id": "3b869919-3671-41ae-84b6-48e67570a43f",
                     "name": "List all Product availabilities.",
                     "request": {
                         "auth": null,
@@ -2544,11 +2544,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "7261b862-a804-4731-b3e0-f174378fbb8f",
+                    "id": "638f50a6-77d1-4a02-9d77-fbf81bf4307e",
                     "item": [
                         {
                             "event": [],
-                            "id": "68e1ba0f-79c0-48ff-ab36-26b7810e64da",
+                            "id": "0e3790aa-84b0-4849-b1f8-eb8969e5de3a",
                             "name": "List Private Networks.",
                             "request": {
                                 "auth": null,
@@ -2585,7 +2585,7 @@
                         },
                         {
                             "event": [],
-                            "id": "69aaf9c1-31b9-4cd2-a091-77854cf5985c",
+                            "id": "79d35af7-f2cd-4779-8ba6-7467b40f486e",
                             "name": "Create a Private Network.",
                             "request": {
                                 "auth": null,
@@ -2628,11 +2628,11 @@
                         },
                         {
                             "event": [],
-                            "id": "1edb9ce5-f295-4e2e-9d25-57f74128c6c2",
+                            "id": "3ed4d038-6023-464b-9490-692f5dbf5dba",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "419b34dd-b737-4fdd-8632-5dc592447cce",
+                                    "id": "3b7cf6d4-250a-4270-bbce-084ecfcd346d",
                                     "name": "Get a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2671,7 +2671,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "9cbec03a-dcd3-4ca8-8dbe-4695c2970cae",
+                                    "id": "7dc49a5e-0ea1-4c5a-84dc-9a1b4a6ab6e1",
                                     "name": "Update a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2723,7 +2723,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d3752fa4-d874-4fe5-8356-f40dd4f96ade",
+                                    "id": "7619ec0b-e34d-45e5-a218-cdcdaed845b0",
                                     "name": "Delete a Private Network.",
                                     "request": {
                                         "auth": null,
@@ -2768,11 +2768,11 @@
                 },
                 {
                     "event": [],
-                    "id": "4ea64b4a-b22c-4d9f-8d7f-26fcb798acf8",
+                    "id": "f9322435-cf26-4a28-963b-6346e84a32d2",
                     "item": [
                         {
                             "event": [],
-                            "id": "69c6c79a-094e-4414-ad9a-b69d8995a0b0",
+                            "id": "31de2223-aa83-41bc-b14f-4281769b0279",
                             "name": "List Public Networks.",
                             "request": {
                                 "auth": null,
@@ -2809,7 +2809,7 @@
                         },
                         {
                             "event": [],
-                            "id": "b75e69ad-423a-4c1a-af55-b02075c9e5ad",
+                            "id": "914910d9-8c32-48ad-bdab-d44a0aff03a6",
                             "name": "Create a public network.",
                             "request": {
                                 "auth": null,
@@ -2852,11 +2852,11 @@
                         },
                         {
                             "event": [],
-                            "id": "1d311b23-6fca-481b-8a83-836523a889dd",
+                            "id": "d1b3e824-0feb-47aa-85b0-7beeda88acc0",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "fe7661e4-4318-4c8a-8947-31062e5de389",
+                                    "id": "2fc5a20b-4d60-4dfa-8e2d-eb872b0d5a13",
                                     "name": "Get a Public Network.",
                                     "request": {
                                         "auth": null,
@@ -2895,7 +2895,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "cbe32bbc-acf6-4005-a0fe-a0fe0bfdeb8f",
+                                    "id": "8ae02f43-4ef0-4e9b-8096-0a301094edbb",
                                     "name": "Update Public Network's Details.",
                                     "request": {
                                         "auth": null,
@@ -2947,7 +2947,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "a02c44cf-7100-41a1-97a8-4cbe92d1f02c",
+                                    "id": "6788a54a-35d5-40de-84b4-0f13bd193305",
                                     "name": "Delete a Public Network.",
                                     "request": {
                                         "auth": null,
@@ -2986,11 +2986,11 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "20c32717-2392-442f-ae0e-4bbd585f74b7",
+                                    "id": "7ccfde2c-1301-4718-b67f-9fced69ad7ba",
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "090d08bf-9d8f-4cbe-ad2b-0de6a0064c2a",
+                                            "id": "e95cf176-b4e0-45be-818b-745aa6f9d270",
                                             "name": "Adds an IP block to this public network.",
                                             "request": {
                                                 "auth": null,
@@ -3043,7 +3043,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "d1730615-5aa2-4fd0-8458-999fcbb2f284",
+                                            "id": "b6671797-73db-480c-999f-6aad183357e7",
                                             "name": "Removes the IP Block from the Public Network.",
                                             "request": {
                                                 "auth": null,
@@ -3112,11 +3112,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "ff2cff25-99e1-48e4-89a9-6f42a842f27a",
+                    "id": "845e0e7a-cea6-4653-b167-a28da99df785",
                     "item": [
                         {
                             "event": [],
-                            "id": "c7e608a4-4017-45b4-a332-59f4587bf4ef",
+                            "id": "1b9c62cf-0884-4663-b19e-f60db2174b0f",
                             "name": "List IP Blocks.",
                             "request": {
                                 "auth": null,
@@ -3159,7 +3159,7 @@
                         },
                         {
                             "event": [],
-                            "id": "734a7ee0-8032-4929-af2e-10e6d9c61218",
+                            "id": "8f9d15dc-5792-4730-8d9f-312a1668a20e",
                             "name": "Create an IP Block.",
                             "request": {
                                 "auth": null,
@@ -3202,11 +3202,11 @@
                         },
                         {
                             "event": [],
-                            "id": "abd17463-50f9-4b89-9d41-e7cdd2fb6c3f",
+                            "id": "9ca3bc32-10d8-4460-8c19-58eb579ced55",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "7b479579-e120-4192-acc2-575200aa041b",
+                                    "id": "a0a4c831-ba00-42e1-9755-15a794a8410d",
                                     "name": "Get IP Block.",
                                     "request": {
                                         "auth": null,
@@ -3245,7 +3245,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "ddb72b73-8de9-4b4f-a362-863973eae918",
+                                    "id": "ce201654-5875-4135-9cfc-0cc8fc44edae",
                                     "name": "Delete IP Block.",
                                     "request": {
                                         "auth": null,
@@ -3284,7 +3284,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d4f99631-c60b-45c5-9d10-59321341e40f",
+                                    "id": "5683adef-c05e-4ef6-a9f7-de5bf50f0c14",
                                     "name": "Update IP block.",
                                     "request": {
                                         "auth": null,
@@ -3336,7 +3336,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "846604e5-09d3-4d37-b8a5-2e594832ac4a",
+                                    "id": "f9a8669a-d982-40ad-bc78-87d658a8e95d",
                                     "name": "Overwrite tags assigned for IP Block.",
                                     "request": {
                                         "auth": null,
@@ -3400,11 +3400,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "efabcf72-44fc-422c-863e-c49039bba1fd",
+                    "id": "3770b60f-a1cb-483c-a010-109341575aad",
                     "item": [
                         {
                             "event": [],
-                            "id": "59bf8d9b-d9eb-4ec2-8f47-ebd3b6459b66",
+                            "id": "153c326c-7941-406f-9e07-ec2b36a599de",
                             "name": "Create a Rancher Server Deployment.",
                             "request": {
                                 "auth": null,
@@ -3447,7 +3447,7 @@
                         },
                         {
                             "event": [],
-                            "id": "50a5f8ee-9d3c-47f3-9391-55591d17949d",
+                            "id": "51f775fa-f4aa-40c2-bb0f-d1efdc88d1f1",
                             "name": "Cluster list.",
                             "request": {
                                 "auth": null,
@@ -3477,11 +3477,11 @@
                         },
                         {
                             "event": [],
-                            "id": "1601ecf6-eb1c-4797-aa8a-bbc8305015b7",
+                            "id": "88bcd24e-48b2-4ee1-9cd4-f18acc0367e4",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "4b7a008a-ac15-4228-ab22-e28eb538cabb",
+                                    "id": "e5ed45aa-329a-46ab-9dbf-9906368f6db9",
                                     "name": "Retrieve a Cluster",
                                     "request": {
                                         "auth": null,
@@ -3520,7 +3520,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "33223eeb-a0e4-4446-8c54-863c1806c719",
+                                    "id": "12259e28-534e-443c-b255-a7befc2ab9e2",
                                     "name": "Delete a cluster.",
                                     "request": {
                                         "auth": null,
@@ -3570,11 +3570,11 @@
             "item": [
                 {
                     "event": [],
-                    "id": "339f8f7b-81d3-4436-be30-6d386424e9d8",
+                    "id": "f07e865f-aee2-4f5f-88c0-6ea30b081128",
                     "item": [
                         {
                             "event": [],
-                            "id": "e5d3c3d1-387a-416b-99ab-319b6add2b29",
+                            "id": "802c3768-f3f5-4e1c-bf72-f58500d6ba0a",
                             "name": "List tags.",
                             "request": {
                                 "auth": null,
@@ -3611,7 +3611,7 @@
                         },
                         {
                             "event": [],
-                            "id": "1e740e80-f9a1-4aa7-ad97-0b6260e5c773",
+                            "id": "675f1ec9-c7c5-4036-96bd-1da2be11fe9a",
                             "name": "Create a Tag.",
                             "request": {
                                 "auth": null,
@@ -3654,11 +3654,11 @@
                         },
                         {
                             "event": [],
-                            "id": "dd42a4c2-7bdc-4839-b294-c8f95fb09645",
+                            "id": "e943d786-24ff-48e9-a4a4-a0a2dc5a1274",
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "050270a7-e956-4fcf-b403-68c56666e395",
+                                    "id": "8bbde3c3-eb1f-438f-8315-123ff0948a3b",
                                     "name": "Get a Tag.",
                                     "request": {
                                         "auth": null,
@@ -3697,7 +3697,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "5583eec9-5369-493b-8b5b-d4644a647b5b",
+                                    "id": "0b4f2394-ab29-4444-9919-0d2f5cfdc83c",
                                     "name": "Modify a Tag.",
                                     "request": {
                                         "auth": null,
@@ -3749,7 +3749,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "c26c831a-56a6-4d99-a2fd-5b3bc490a549",
+                                    "id": "6f6f6d67-a7a8-43c4-8a52-d192e89f2e66",
                                     "name": "Delete a Tag.",
                                     "request": {
                                         "auth": null,
