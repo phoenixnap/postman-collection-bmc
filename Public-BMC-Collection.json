@@ -81,7 +81,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "01c4cd4c-9e7e-41c7-91b0-b62eb63ffced",
+                            "id": "ff4be593-daf4-4296-a83b-1a57c31712e5",
                             "name": "List event logs.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -165,7 +165,7 @@
                                             },
                                             "disabled": false,
                                             "key": "verb",
-                                            "value": "PUT"
+                                            "value": "PATCH"
                                         },
                                         {
                                             "description": {
@@ -194,7 +194,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "fd1b8a41-e190-4549-9030-01ef1b407a8b",
+                            "id": "10b0fcc8-bd47-4bf9-8eed-2843c89d12b8",
                             "name": "List servers.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -251,7 +251,7 @@
                         },
                         {
                             "event": [],
-                            "id": "db99e750-9d0f-42ce-bd60-90f32b1719e6",
+                            "id": "41bc24dc-5df7-4977-9836-89e978254bc4",
                             "name": "Create new server.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -315,7 +315,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "64a31eca-f870-4d23-be39-f1569ac6b89d",
+                                    "id": "9d82af44-6bbe-4294-9f74-67c066b9d993",
                                     "name": "Get server.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -365,7 +365,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "6631325e-a108-4a4c-b03e-f4843560d8de",
+                                    "id": "a2988877-4af7-45fa-a310-8e86dcc4d50b",
                                     "name": "Patch a Server.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -380,7 +380,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"description\": \"<string>\",\n  \"hostname\": \"m\"\n}"
+                                            "raw": "{\n  \"description\": \"<string>\",\n  \"hostname\": \"rx\"\n}"
                                         },
                                         "description": {
                                             "content": "Any changes to the hostname or description using the BMC API will reflect solely in the BMC API and portal. The changes are intended to keep the BMC data up to date with your server. We do not have access to your server's settings. Local changes to the server's hostname will not be reflected in the API or portal.",
@@ -428,7 +428,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "7f040acf-bbe0-4f06-b154-9fbd8074ee52",
+                                    "id": "48fd4b73-db4b-439a-b256-c184c83c5f9c",
                                     "name": "Delete server.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -487,7 +487,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "0102eddc-c2f9-49ec-8bc1-0aafe7cfcd6f",
+                                                            "id": "f6f8d78a-fc86-4ae8-96d7-2ad1ec8ee186",
                                                             "name": "Assign IP Block to Server.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -556,7 +556,7 @@
                                                             "item": [
                                                                 {
                                                                     "event": [],
-                                                                    "id": "f6a063f1-27d5-4ce5-ad25-a5f179824ae1",
+                                                                    "id": "a6d9ded3-a271-4868-9590-6df11d644827",
                                                                     "name": "Unassign IP Block from Server.",
                                                                     "protocolProfileBehavior": {
                                                                         "disableBodyPruning": true
@@ -648,7 +648,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "02bccd66-ac06-48dd-978c-11b55eb194b0",
+                                                            "id": "91121a2f-a675-434c-acf3-8d7d1dc17a90",
                                                             "name": "Adds the server to a private network.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -727,7 +727,7 @@
                                                             "item": [
                                                                 {
                                                                     "event": [],
-                                                                    "id": "1533b8b9-0f4f-4397-82a9-660808c80310",
+                                                                    "id": "cecdf824-cfe4-4ac8-a87d-c44329801a01",
                                                                     "name": "Updates the server's private network's IP addresses",
                                                                     "protocolProfileBehavior": {
                                                                         "disableBodyPruning": true
@@ -814,7 +814,7 @@
                                                                 },
                                                                 {
                                                                     "event": [],
-                                                                    "id": "9a7e1a8f-709e-410e-8552-5f435eae5984",
+                                                                    "id": "7c18983b-6851-48f9-bdda-88a0aceddc69",
                                                                     "name": "Removes the server from private network.",
                                                                     "protocolProfileBehavior": {
                                                                         "disableBodyPruning": true
@@ -893,7 +893,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "d8a2ded5-2005-4ce3-a7d3-bece362f83f7",
+                                                            "id": "1f9b5c1c-fce8-430e-8194-c79338a733f4",
                                                             "name": "Adds the server to a Public Network.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -972,7 +972,7 @@
                                                             "item": [
                                                                 {
                                                                     "event": [],
-                                                                    "id": "2d60876e-4c8a-4fb1-8b61-b9eadc66aaf8",
+                                                                    "id": "adb27cc5-cc2f-4c49-b7a7-0993faf278ca",
                                                                     "name": "Updates the server's public network's IP addresses.",
                                                                     "protocolProfileBehavior": {
                                                                         "disableBodyPruning": true
@@ -1059,7 +1059,7 @@
                                                                 },
                                                                 {
                                                                     "event": [],
-                                                                    "id": "521ee12b-92fa-45f2-b6e7-037325b9ec1f",
+                                                                    "id": "a15178c0-9d0c-4ed3-adbb-b0d58067d73a",
                                                                     "name": "Removes the server from the Public Network",
                                                                     "protocolProfileBehavior": {
                                                                         "disableBodyPruning": true
@@ -1138,7 +1138,7 @@
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "e1b0eedc-b58c-40f1-b4bf-98de267c8f5b",
+                                            "id": "863cc35d-e259-4cce-87b2-b751af2d7db3",
                                             "name": "Overwrite tags assigned for Server.",
                                             "protocolProfileBehavior": {
                                                 "disableBodyPruning": true
@@ -1211,7 +1211,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "228f0f32-ca1a-4b60-8f4a-5e29b9c668c6",
+                                                    "id": "976c91ca-5e5a-4c2f-ac43-8d713a3dbe7f",
                                                     "name": "Provision server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1292,7 +1292,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "6bc85c5c-cbe9-481a-a070-d4fac854d350",
+                                                    "id": "6f2ea9b5-557d-42c4-8258-517342e6cedb",
                                                     "name": "Deprovision a server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1363,7 +1363,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "9ee72258-eb3b-4134-bdce-06f2399ec928",
+                                                    "id": "8fde8f6c-d7f2-485e-bda3-4d4f0134bd72",
                                                     "name": "Power on server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1421,7 +1421,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "411846f3-49aa-4adf-a39f-96fb737c9b00",
+                                                    "id": "058d3511-6c01-43e4-8602-080243c35d88",
                                                     "name": "Power off server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1479,7 +1479,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "f591e947-7b7b-4a07-be3d-12eec6ea2615",
+                                                    "id": "fa75cc84-8ac8-4baf-b23b-8323f366cabf",
                                                     "name": "Reboot server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1537,7 +1537,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "039c16a3-d134-4a33-b003-1f536d315f49",
+                                                    "id": "6b108e9b-564e-435e-96bc-f91ad80c1297",
                                                     "name": "Shutdown server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1595,7 +1595,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "575067d8-b9ba-40a5-83f1-791bfed03a99",
+                                                    "id": "1e8cbcd7-9f16-40f4-8769-5996a73fb949",
                                                     "name": "Reset server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1666,7 +1666,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "9fc66f43-c431-4857-9426-558d16021aa6",
+                                                    "id": "6df43822-0310-4ec2-af05-c20de3fa99fe",
                                                     "name": "Reserve server.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1737,7 +1737,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "2ad6a10b-c335-4198-aebe-f45c3972d63a",
+                                                    "id": "716447d4-e128-46bd-9d4a-8b81edbd79cc",
                                                     "name": "Transfer server reservation.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -1817,7 +1817,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "75e31e5a-e801-4ede-9a5c-be958f3a6c1f",
+                            "id": "505e4bcb-9e83-493f-9593-4ab5eacfeb98",
                             "name": "Create SSH Key.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -1832,7 +1832,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"default\": \"<boolean>\",\n  \"name\": \"Y~aS\",\n  \"key\": \"G h\"\n}"
+                                    "raw": "{\n  \"default\": \"<boolean>\",\n  \"name\": \"'&r2&\",\n  \"key\": \"em\"\n}"
                                 },
                                 "description": {
                                     "content": "Create an SSH Key. SSH Keys created can be used for server creation and reset functionality.",
@@ -1868,7 +1868,7 @@
                         },
                         {
                             "event": [],
-                            "id": "4b8f7676-f302-4eb3-89db-aac4746db54f",
+                            "id": "377f18f0-a7a6-468b-92a3-cc78ebb77a60",
                             "name": "List SSH Keys.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -1909,7 +1909,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "f1108319-356a-4cd2-8dc1-fad021e30ab7",
+                                    "id": "e5aa0438-d3d5-4249-a399-2ab81a2a210f",
                                     "name": "Get SSH Key.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -1959,7 +1959,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "05786178-1ee6-4db3-a45c-9b36aa4e6081",
+                                    "id": "b4098e3c-a33e-4eaa-ade5-f37bd3b3308c",
                                     "name": "Delete SSH Key.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2009,7 +2009,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "30bf3797-5e64-49eb-8779-a685f32a74a0",
+                                    "id": "2e2b7c18-763d-4eab-b7d2-65b0cf36a048",
                                     "name": "Edit SSH Key.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2024,7 +2024,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"default\": \"<boolean>\",\n  \"name\": \"S(8R\"\n}"
+                                            "raw": "{\n  \"default\": \"<boolean>\",\n  \"name\": \"x}<\"\n}"
                                         },
                                         "description": {
                                             "content": "Edit SSH Key details.",
@@ -2081,7 +2081,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "e6e2db74-e9a7-4f4d-ae7f-ee27d171fd2d",
+                            "id": "659060a2-a7a2-4478-8114-c3b109764d10",
                             "name": "List quotas",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2122,7 +2122,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "d7a932b0-8f4a-4267-b38e-3e37279ea8bd",
+                                    "id": "183a1f69-dc85-414e-9d30-b10e5eb25205",
                                     "name": "Get a quota.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2178,7 +2178,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "89a6d3d1-8f47-46a1-bf74-b70bcd61f40f",
+                                                    "id": "7b9c2a1e-0a9c-4700-a903-97e910e9f211",
                                                     "name": "Request quota limit change.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -2263,7 +2263,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "62babf3d-5178-4636-a233-1d5446beb581",
+                            "id": "486242b0-8255-496f-8753-39c3825d4482",
                             "name": "List the rated usage.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2332,7 +2332,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "9bdd1edb-f61a-45d9-9891-b834c3e06cdd",
+                                    "id": "9570fdc4-61f1-4d94-b787-661b0b2bab27",
                                     "name": "List the rated usage records for the current calendar month.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2390,7 +2390,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "46676a9f-25b8-45d9-b0d0-24eabd3aaae1",
+                            "id": "98bc1834-531c-4d78-a6ea-d37a599a7a8f",
                             "name": "List all Products.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2471,7 +2471,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "19cfde99-355f-460d-af6f-33560d46ca41",
+                            "id": "961037cb-5e88-458a-b55a-2b21e8bd8dec",
                             "name": "List all Reservations.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2510,7 +2510,7 @@
                                             },
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "storage"
+                                            "value": "bandwidth"
                                         }
                                     ],
                                     "variable": []
@@ -2519,7 +2519,7 @@
                         },
                         {
                             "event": [],
-                            "id": "effd7f9e-18aa-4f99-986e-eaa07f52b71b",
+                            "id": "b036b956-5fbb-4827-a8df-9a4ae109ec00",
                             "name": "Create a reservation.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2534,7 +2534,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"sku\": \"<string>\",\n  \"quantity\": {\n    \"quantity\": \"<number>\",\n    \"unit\": \"TB\"\n  }\n}"
+                                    "raw": "{\n  \"sku\": \"<string>\",\n  \"quantity\": {\n    \"quantity\": \"<number>\",\n    \"unit\": \"COUNT\"\n  }\n}"
                                 },
                                 "description": {
                                     "content": "Creates new package reservation for authenticated account.",
@@ -2573,7 +2573,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "0cf96455-6bc9-4c4e-82c5-d2b801963cab",
+                                    "id": "2174e9e5-43df-4ca1-a97e-68df476de16c",
                                     "name": "Get a reservation.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2632,7 +2632,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "b7af6575-9f8d-48eb-95c5-5de5a6da79f1",
+                                                            "id": "d0e5a6d4-b3a8-4e39-bcf9-a54095443451",
                                                             "name": "Disable auto-renewal for reservation by id.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -2704,7 +2704,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "12841a8d-489c-4a9c-856f-924611486510",
+                                                            "id": "cf5b6aa2-dbf4-4090-89ac-4016b8c3a864",
                                                             "name": "Enable auto-renewal for unexpired reservation by reservation id.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -2766,7 +2766,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "b3081c65-3d76-47ba-9d8e-c6ffca70a93a",
+                                                    "id": "d06b9f89-c593-4e32-a66b-61b3b4d1461c",
                                                     "name": "Convert reservation pricing model by reservation ID.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -2781,7 +2781,7 @@
                                                                     "language": "json"
                                                                 }
                                                             },
-                                                            "raw": "{\n  \"sku\": \"<string>\",\n  \"quantity\": {\n    \"quantity\": \"<number>\",\n    \"unit\": \"TB\"\n  }\n}"
+                                                            "raw": "{\n  \"sku\": \"<string>\",\n  \"quantity\": {\n    \"quantity\": \"<number>\",\n    \"unit\": \"COUNT\"\n  }\n}"
                                                         },
                                                         "description": {
                                                             "content": "Convert reservation pricing model by reservation id.",
@@ -2849,7 +2849,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "197460ee-bf97-499f-98a6-5ea71940a38e",
+                                    "id": "2be692ec-73be-44b3-87c1-1586e68e3be1",
                                     "name": "Retrieves billing configuration associated with the authenticated account.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -2897,7 +2897,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "cb9ae04a-0b14-42b1-ab43-fd9f14937bfd",
+                            "id": "586f9905-4fde-4e61-8875-af7ea4690f60",
                             "name": "List all Product availabilities.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -2981,7 +2981,7 @@
                                             },
                                             "disabled": false,
                                             "key": "location",
-                                            "value": "SEA"
+                                            "value": "NLD"
                                         },
                                         {
                                             "description": {
@@ -2990,7 +2990,7 @@
                                             },
                                             "disabled": false,
                                             "key": "location",
-                                            "value": "ASH"
+                                            "value": "PHX"
                                         },
                                         {
                                             "description": {
@@ -3037,7 +3037,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "c89dfd87-7475-4712-a852-4a4b10122b78",
+                            "id": "b95cbb84-2e33-4c6e-82a7-30e5e6c420ca",
                             "name": "List Private Networks.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3085,7 +3085,7 @@
                         },
                         {
                             "event": [],
-                            "id": "c9761326-3b2c-4e16-bfa5-ca6600f49b3a",
+                            "id": "f8376bda-846a-4113-84d8-5d9eba1cb036",
                             "name": "Create a Private Network.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3100,7 +3100,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"name\": \"51G9\",\n  \"location\": \"<string>\",\n  \"description\": \"<string>\",\n  \"locationDefault\": false,\n  \"vlanId\": \"<integer>\",\n  \"cidr\": \"<string>\"\n}"
+                                    "raw": "{\n  \"name\": \"G\",\n  \"location\": \"<string>\",\n  \"description\": \"<string>\",\n  \"locationDefault\": false,\n  \"vlanId\": \"<integer>\",\n  \"cidr\": \"<string>\"\n}"
                                 },
                                 "description": {
                                     "content": "Create a Private Network.",
@@ -3149,7 +3149,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "fcad6513-df14-43e7-8916-9a0fc021155c",
+                                    "id": "98056bdf-6f66-488a-872b-2216f3e09871",
                                     "name": "Get a Private Network.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3199,7 +3199,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "c6e42afc-0c44-45de-a32c-9027bc9fbd2e",
+                                    "id": "54dbf60f-cbf3-43f9-a72d-3d42e1abcd39",
                                     "name": "Update a Private Network.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3214,7 +3214,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"name\": \"YBe\",\n  \"locationDefault\": \"<boolean>\",\n  \"description\": \"<string>\"\n}"
+                                            "raw": "{\n  \"name\": \"u.U8Mf5.\",\n  \"locationDefault\": \"<boolean>\",\n  \"description\": \"<string>\"\n}"
                                         },
                                         "description": {
                                             "content": "Update Private Network Details.",
@@ -3262,7 +3262,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d9141c8f-b969-4262-ae3a-267d125d48dd",
+                                    "id": "5c68a6cd-6ab5-4db8-a90a-9d877ef621ea",
                                     "name": "Delete a Private Network.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3321,7 +3321,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "de0e0f13-aec4-4893-851b-556840c7079c",
+                            "id": "5f082a97-5db0-4111-886e-1f1405486d08",
                             "name": "List Public Networks.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3369,7 +3369,7 @@
                         },
                         {
                             "event": [],
-                            "id": "d59baca7-b6fd-4d25-9ac8-8319481bc244",
+                            "id": "98413972-68d8-4464-ba0a-b78d1ab4ca9b",
                             "name": "Create a public network.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3384,7 +3384,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"name\": \"Ew83U\",\n  \"location\": \"<string>\",\n  \"description\": \"<string>\",\n  \"vlanId\": \"<integer>\",\n  \"ipBlocks\": [\n    {\n      \"id\": \"<string>\"\n    },\n    {\n      \"id\": \"<string>\"\n    }\n  ],\n  \"raEnabled\": \"<boolean>\"\n}"
+                                    "raw": "{\n  \"name\": \"qdggeEUViq9\",\n  \"location\": \"<string>\",\n  \"description\": \"<string>\",\n  \"vlanId\": \"<integer>\",\n  \"ipBlocks\": [\n    {\n      \"id\": \"<string>\"\n    },\n    {\n      \"id\": \"<string>\"\n    }\n  ],\n  \"raEnabled\": \"<boolean>\"\n}"
                                 },
                                 "description": {
                                     "content": "Create a public network.",
@@ -3423,7 +3423,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "19a368a3-2aca-4078-b792-79aa41c7360c",
+                                    "id": "4700637b-4ce1-4420-919d-7f2ced1618c8",
                                     "name": "Get a Public Network.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3473,7 +3473,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "e6f3c7ea-f8d5-4705-a3c2-68def91a0a81",
+                                    "id": "9fdf489f-2de0-4e83-99c8-d266ba769e98",
                                     "name": "Update Public Network's Details.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3488,7 +3488,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"name\": \"uJGMLFaWCH\",\n  \"description\": \"<string>\",\n  \"raEnabled\": \"<boolean>\"\n}"
+                                            "raw": "{\n  \"name\": \"eMZc\",\n  \"description\": \"<string>\",\n  \"raEnabled\": \"<boolean>\"\n}"
                                         },
                                         "description": {
                                             "content": "Update Public Network's Details.",
@@ -3536,7 +3536,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d06c78e8-cc67-4461-b528-f93549712dd6",
+                                    "id": "bd7a115b-e6c4-44d5-b4a4-35d9262d456f",
                                     "name": "Delete a Public Network.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3589,7 +3589,7 @@
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "3c9f0f5d-ecc7-47b9-882e-5b60379c924b",
+                                            "id": "a1a36aff-f122-4b5e-81b5-5679bf7b73f8",
                                             "name": "Adds an IP block to this public network.",
                                             "protocolProfileBehavior": {
                                                 "disableBodyPruning": true
@@ -3656,7 +3656,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "f86b877d-1342-4c6f-a664-8d4458347cea",
+                                                    "id": "da4fdaaf-5f01-45be-b3aa-95cd8c6fd726",
                                                     "name": "Removes the IP Block from the Public Network.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -3743,7 +3743,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "a329be58-0cdc-4f5a-9d70-46ecae46fc79",
+                            "id": "f267c68d-148d-4cb5-b86a-aca653c894b2",
                             "name": "List BGP Peer Groups.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3791,7 +3791,7 @@
                         },
                         {
                             "event": [],
-                            "id": "33936cf4-ac09-4ec4-9938-f4cfb50ca916",
+                            "id": "35a77729-ead0-4e76-8865-223609fa2276",
                             "name": "Create a BGP Peer Group.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -3806,7 +3806,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"location\": \"<string>\",\n  \"asn\": 65401,\n  \"advertisedRoutes\": \"NONE\",\n  \"password\": \"A:.LgZ<J;b|\"\n}"
+                                    "raw": "{\n  \"location\": \"<string>\",\n  \"asn\": 65401,\n  \"advertisedRoutes\": \"NONE\",\n  \"password\": \"Y&BBNY&BBN\"\n}"
                                 },
                                 "description": {
                                     "content": "Create a BGP Peer Group.",
@@ -3845,7 +3845,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "e2f3741b-ddc0-4369-84b9-0b51b0dcc3fa",
+                                    "id": "92886f01-432e-4514-9a06-3859272721bb",
                                     "name": "Get a BGP Peer Group.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3895,7 +3895,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "7ca36379-ab42-4b59-a288-8c41ac7e7e00",
+                                    "id": "fa9ec03e-df86-477d-9d78-909070f00301",
                                     "name": "Modify a BGP Peer Group.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -3910,7 +3910,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"asn\": \"<long>\",\n  \"password\": \"24dy)w24dy)w\",\n  \"advertisedRoutes\": \"<string>\"\n}"
+                                            "raw": "{\n  \"asn\": \"<long>\",\n  \"password\": \"G=ySG=yS\",\n  \"advertisedRoutes\": \"<string>\"\n}"
                                         },
                                         "description": {
                                             "content": "Modifies BGP Peer Group by ID.",
@@ -3958,7 +3958,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "04bbca3e-8183-4c97-a4e3-ed6f5f6592aa",
+                                    "id": "91f14109-4ff8-4b4d-9518-8e6359eb7aba",
                                     "name": "Delete a BGP Peer Group.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4022,7 +4022,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "a73128e1-60a7-470e-81c4-206cb3c17b93",
+                            "id": "55345425-9c95-4e44-b729-1163ec98e97e",
                             "name": "List IP Blocks.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -4079,7 +4079,7 @@
                         },
                         {
                             "event": [],
-                            "id": "421a61f8-e3c6-40c9-b0e6-b88a52de521b",
+                            "id": "9cb9f5f4-6a90-4734-997a-f7183d38b981",
                             "name": "Create an IP Block.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -4133,7 +4133,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "abe058ce-7baf-4dd8-bdd7-b0b1bfc8bf22",
+                                    "id": "3476571b-0421-4497-8faa-f30ca1361790",
                                     "name": "Get IP Block.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4183,7 +4183,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "121e7519-ee41-478e-b523-f08b67eb3777",
+                                    "id": "c7c1908d-2de0-4ef7-bea3-ede511caac6d",
                                     "name": "Delete IP Block.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4233,7 +4233,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "62d41057-f46f-42fc-8de5-f595a932790c",
+                                    "id": "f573306a-4308-445b-8ccc-51f1962e02bd",
                                     "name": "Update IP block.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4299,7 +4299,7 @@
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "fd1250dc-96ed-4ac4-9c89-8409f73c6ec0",
+                                            "id": "c27f11e2-f44b-46a3-a761-00301828a44f",
                                             "name": "Overwrite tags assigned for IP Block.",
                                             "protocolProfileBehavior": {
                                                 "disableBodyPruning": true
@@ -4380,7 +4380,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "fbd9076a-59cd-4ae1-9051-c2a870a8f5f8",
+                            "id": "ee38dffb-62e8-474b-96e8-66be016b0e56",
                             "name": "List all storage networks.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -4428,7 +4428,7 @@
                         },
                         {
                             "event": [],
-                            "id": "a363051e-46dc-49d0-86b9-27aaf59300bd",
+                            "id": "0aa3b0b9-71d5-486f-bb49-95b4ac0d4043",
                             "name": "Create a storage network and volume.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -4443,7 +4443,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"name\": \"538V\",\n  \"location\": \"<string>\",\n  \"volumes\": [\n    {\n      \"name\": \"AB.j3mf\",\n      \"capacityInGb\": \"<integer>\",\n      \"description\": \"<string>\",\n      \"pathSuffix\": \"/65/K85ySjWYex/u2xcx/yXp_mC\",\n      \"tags\": [\n        {\n          \"name\": \"<string>\",\n          \"value\": \"<string>\"\n        },\n        {\n          \"name\": \"<string>\",\n          \"value\": \"<string>\"\n        }\n      ]\n    }\n  ],\n  \"description\": \"<string>\",\n  \"clientVlan\": \"<integer>\"\n}"
+                                    "raw": "{\n  \"name\": \")XZ\",\n  \"location\": \"<string>\",\n  \"volumes\": [\n    {\n      \"name\": \"77OD.lIu19\",\n      \"capacityInGb\": \"<integer>\",\n      \"description\": \"<string>\",\n      \"pathSuffix\": \"/5bAjDC/OVo/nX1C\",\n      \"tags\": [\n        {\n          \"name\": \"<string>\",\n          \"value\": \"<string>\"\n        },\n        {\n          \"name\": \"<string>\",\n          \"value\": \"<string>\"\n        }\n      ]\n    }\n  ],\n  \"description\": \"<string>\",\n  \"clientVlan\": \"<integer>\"\n}"
                                 },
                                 "description": {
                                     "content": "Create a storage network and volume.",
@@ -4482,7 +4482,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "734c4c94-aa65-4ea1-a945-3bbef278ec04",
+                                    "id": "fa4c6d72-9a2e-40a2-99f5-b54c8024eaa2",
                                     "name": "Get storage network details.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4532,7 +4532,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "0f131dcc-82b3-4151-8eb2-947f974c5e4b",
+                                    "id": "8a657d2e-ab1c-4d92-a9b9-10299c749466",
                                     "name": "Update storage network details.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4547,7 +4547,7 @@
                                                     "language": "json"
                                                 }
                                             },
-                                            "raw": "{\n  \"name\": \"NrBN8q8\",\n  \"description\": \"<string>\"\n}"
+                                            "raw": "{\n  \"name\": \"86PNJ.YSRxR\",\n  \"description\": \"<string>\"\n}"
                                         },
                                         "description": {
                                             "content": "Update storage network details.",
@@ -4595,7 +4595,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "6c1e9c7a-851a-4841-8d49-15b8ce6de70e",
+                                    "id": "7f68309d-2fc0-44c0-8c61-ae23658a3897",
                                     "name": "Delete a storage network and its volume.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -4648,7 +4648,7 @@
                                     "item": [
                                         {
                                             "event": [],
-                                            "id": "3d627410-72e1-4b50-b0f8-5240a0f8eebf",
+                                            "id": "e633e536-9df0-4da8-9769-a263d796d372",
                                             "name": "Display one or more volumes belonging to a storage network.",
                                             "protocolProfileBehavior": {
                                                 "disableBodyPruning": true
@@ -4718,7 +4718,7 @@
                                         },
                                         {
                                             "event": [],
-                                            "id": "af26f490-4b05-44be-8762-803c0a93c6a0",
+                                            "id": "4ee7cadd-f506-4e1c-9472-3e5ae3a5b6d1",
                                             "name": "Create a volume belonging to a storage network.",
                                             "protocolProfileBehavior": {
                                                 "disableBodyPruning": true
@@ -4733,7 +4733,7 @@
                                                             "language": "json"
                                                         }
                                                     },
-                                                    "raw": "{\n  \"name\": \"ynCiBL8Yz\",\n  \"capacityInGb\": \"<integer>\",\n  \"description\": \"<string>\",\n  \"pathSuffix\": \"/Ie0/3jl/evpp0piW/UOWfs\",\n  \"permissions\": {\n    \"nfs\": {\n      \"readWrite\": [\n        \"89.125.*\",\n        \"7.254252250./28\"\n      ],\n      \"readOnly\": [\n        \"120.251.94253./6\",\n        \"251.167.14.254\"\n      ],\n      \"rootSquash\": [\n        \"253.210.255.*\",\n        \"166.129.*\"\n      ],\n      \"noSquash\": [\n        \"2542.1255.\",\n        \"254.9.253.*\"\n      ],\n      \"allSquash\": [\n        \"5242536./2\",\n        \"*\"\n      ]\n    }\n  },\n  \"tags\": [\n    {\n      \"name\": \"<string>\",\n      \"value\": \"<string>\"\n    },\n    {\n      \"name\": \"<string>\",\n      \"value\": \"<string>\"\n    }\n  ]\n}"
+                                                    "raw": "{\n  \"name\": \"kq51\",\n  \"capacityInGb\": \"<integer>\",\n  \"description\": \"<string>\",\n  \"pathSuffix\": \"\",\n  \"permissions\": {\n    \"nfs\": {\n      \"readWrite\": [\n        \"250.*\",\n        \"255.53.1.*\"\n      ],\n      \"readOnly\": [\n        \"*\",\n        \"251.250251208./24\"\n      ],\n      \"rootSquash\": [\n        \"251.45252.41.\",\n        \"251.*\"\n      ],\n      \"noSquash\": [\n        \"251.0.254.*\",\n        \"2510.254255./31\"\n      ],\n      \"allSquash\": [\n        \"8.4.6.*\",\n        \"210.252.*\"\n      ]\n    }\n  },\n  \"tags\": [\n    {\n      \"name\": \"<string>\",\n      \"value\": \"<string>\"\n    },\n    {\n      \"name\": \"<string>\",\n      \"value\": \"<string>\"\n    }\n  ]\n}"
                                                 },
                                                 "description": {
                                                     "content": "Create a volume belonging to a storage network.",
@@ -4785,7 +4785,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "cac12b4c-5fbd-4c0c-a2c4-bf9d53bd52ec",
+                                                    "id": "1b7b3b5b-97a3-495e-8830-a1c2e2627950",
                                                     "name": "Get a storage network's volume details.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -4847,7 +4847,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "0230a7d5-f924-45be-9717-d2d5993c72d9",
+                                                    "id": "045eaf4e-91d6-418d-97b5-b037bb4c190c",
                                                     "name": "Update a storage network's volume details.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -4862,7 +4862,7 @@
                                                                     "language": "json"
                                                                 }
                                                             },
-                                                            "raw": "{\n  \"name\": \"bvfCu\",\n  \"description\": \"<string>\",\n  \"capacityInGb\": \"<integer>\",\n  \"pathSuffix\": \"/dl-/ow/r9vI_/qDt3I/mtrXA/K\",\n  \"permissions\": {\n    \"nfs\": {\n      \"readWrite\": [\n        \"250.110.85.255\",\n        \"254.253250.72\"\n      ],\n      \"readOnly\": [\n        \"3.255.251.*\",\n        \"253.*\"\n      ],\n      \"rootSquash\": [\n        \"164234250.2/32\",\n        \"1.25331250./30\"\n      ],\n      \"noSquash\": [\n        \"253.91.0.*\",\n        \"107239250.37./5\"\n      ],\n      \"allSquash\": [\n        \"251251.251.252.\",\n        \"250.9.251.*\"\n      ]\n    }\n  }\n}"
+                                                            "raw": "{\n  \"name\": \"kX-Ll(lr\",\n  \"description\": \"<string>\",\n  \"capacityInGb\": \"<integer>\",\n  \"pathSuffix\": \"/HFs10pq4Kp/wy-VJ/ZjkHxNEp3\",\n  \"permissions\": {\n    \"nfs\": {\n      \"readWrite\": [\n        \"250.48.249.46/31\",\n        \"81251.28.5/31\"\n      ],\n      \"readOnly\": [\n        \"46.255255.199./31\",\n        \"251.24525299\"\n      ],\n      \"rootSquash\": [\n        \"254.*\",\n        \"7255251255/23\"\n      ],\n      \"noSquash\": [\n        \"*\",\n        \"244.254.*\"\n      ],\n      \"allSquash\": [\n        \"2552537.150/3\",\n        \"25041915/32\"\n      ]\n    }\n  }\n}"
                                                         },
                                                         "description": {
                                                             "content": "Update a storage network's volume details. Volume's capacity requested cannot be less than or equal to current volume's capacity.",
@@ -4922,7 +4922,7 @@
                                                 },
                                                 {
                                                     "event": [],
-                                                    "id": "5af144e7-736f-4854-a775-0fb0249cf7ba",
+                                                    "id": "b778ff93-6c2b-4b0e-8b04-0bfba08b955f",
                                                     "name": "Delete a Storage Network's Volume",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -4987,7 +4987,7 @@
                                                     "item": [
                                                         {
                                                             "event": [],
-                                                            "id": "3aabbb6f-5489-408a-908f-8745ac5a63dc",
+                                                            "id": "68dfd3cc-0fd2-4e20-b72c-eb9c0c7d64ac",
                                                             "name": "Overwrites tags assigned for the volume.",
                                                             "protocolProfileBehavior": {
                                                                 "disableBodyPruning": true
@@ -5086,7 +5086,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "bdc45693-27ff-4a8f-987e-de2e08dc4319",
+                            "id": "4c22e94c-82d5-4bea-8087-bdd9196d3b17",
                             "name": "Create a Rancher Server Deployment.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5101,7 +5101,7 @@
                                             "language": "json"
                                         }
                                     },
-                                    "raw": "{\n  \"location\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"nodePools\": [\n    {\n      \"name\": \".p)q8W32\",\n      \"nodeCount\": \"<integer>\",\n      \"serverType\": \"s0.d1.small\",\n      \"sshConfig\": {\n        \"installDefaultKeys\": true,\n        \"keys\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"keyIds\": [\n          \"<string>\",\n          \"<string>\"\n        ]\n      }\n    }\n  ],\n  \"configuration\": {\n    \"token\": \"<string>\",\n    \"tlsSan\": \"<string>\",\n    \"etcdSnapshotScheduleCron\": \"0 0,12 * * *\",\n    \"etcdSnapshotRetention\": 5,\n    \"nodeTaint\": \"<string>\",\n    \"clusterDomain\": \"<string>\",\n    \"certificates\": {\n      \"caCertificate\": \"<string>\",\n      \"certificate\": \"<string>\",\n      \"certificateKey\": \"<string>\"\n    }\n  },\n  \"metadata\": {\n    \"url\": \"<string>\",\n    \"username\": \"<string>\",\n    \"password\": \"<string>\"\n  },\n  \"workloadConfiguration\": {\n    \"serverType\": \"s0.d1.small\",\n    \"location\": \"<string>\",\n    \"name\": \"<string>\",\n    \"serverCount\": 1\n  }\n}"
+                                    "raw": "{\n  \"location\": \"<string>\",\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"nodePools\": [\n    {\n      \"name\": \"5E\",\n      \"nodeCount\": \"<integer>\",\n      \"serverType\": \"s0.d1.small\",\n      \"sshConfig\": {\n        \"installDefaultKeys\": true,\n        \"keys\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"keyIds\": [\n          \"<string>\",\n          \"<string>\"\n        ]\n      }\n    }\n  ],\n  \"configuration\": {\n    \"token\": \"<string>\",\n    \"tlsSan\": \"<string>\",\n    \"etcdSnapshotScheduleCron\": \"0 0,12 * * *\",\n    \"etcdSnapshotRetention\": 5,\n    \"nodeTaint\": \"<string>\",\n    \"clusterDomain\": \"<string>\",\n    \"certificates\": {\n      \"caCertificate\": \"<string>\",\n      \"certificate\": \"<string>\",\n      \"certificateKey\": \"<string>\"\n    }\n  },\n  \"metadata\": {\n    \"url\": \"<string>\",\n    \"username\": \"<string>\",\n    \"password\": \"<string>\"\n  },\n  \"workloadConfiguration\": {\n    \"serverType\": \"s0.d1.small\",\n    \"location\": \"<string>\",\n    \"name\": \"<string>\",\n    \"serverCount\": 1\n  }\n}"
                                 },
                                 "description": {
                                     "content": "Create a Rancher Server Deployment as described in <a href='https://ranchermanager.docs.rancher.com/reference-guides/rancher-manager-architecture' target='_blank'>Rancher Docs Architecture</a>. Rancher Server allows the creation, import and management of multiple Downstream User Kubernetes Clusters.\n<b>This is not a Downstream User Cluster</b>. Knowledge base article to help you can be found <a href='https://phoenixnap.com/kb/bmc-rancher-workload-cluster#ftoc-heading-5' target='_blank'>here</a>.\n",
@@ -5137,7 +5137,7 @@
                         },
                         {
                             "event": [],
-                            "id": "4965a7a3-e1cd-490d-84bb-48d62f1d4353",
+                            "id": "487018be-d27c-4959-8aee-016fa967eba9",
                             "name": "Cluster list.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5178,7 +5178,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "b15484b1-fd19-4bcc-a317-fdb13517fb6b",
+                                    "id": "0380b24f-ca7e-4e7d-8838-6a1ee46de12e",
                                     "name": "Retrieve a Cluster",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5228,7 +5228,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "5a0672aa-f952-4bd2-9579-c3fad42b3d61",
+                                    "id": "b7f235ec-e205-4222-8111-021c7882807b",
                                     "name": "Delete a cluster.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5292,7 +5292,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "8b703e0e-9080-46e3-8171-f1ffb4c6323d",
+                            "id": "cd645f93-e0f0-4b92-a461-0337f12f6146",
                             "name": "List tags.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5340,7 +5340,7 @@
                         },
                         {
                             "event": [],
-                            "id": "c94c7128-4bf0-4e52-8eef-66b68f074b77",
+                            "id": "d93bf165-2882-41e2-8016-4f9855b86541",
                             "name": "Create a Tag.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5394,7 +5394,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "d24b05d4-6cb1-4b42-88da-f4c8c55ecf11",
+                                    "id": "c05ab0d1-f7af-4f65-a1f1-2254ac9e04d2",
                                     "name": "Get a Tag.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5444,7 +5444,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "2db699f1-8e77-4bf5-886c-71b6f04fd3c9",
+                                    "id": "49bb23b9-3cad-4277-b72a-37f941a78e31",
                                     "name": "Modify a Tag.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5507,7 +5507,7 @@
                                 },
                                 {
                                     "event": [],
-                                    "id": "d85325da-96f5-4dd0-bb3d-d2e78c5c29a5",
+                                    "id": "de99ee4d-80d0-40e3-9055-77cb2caeb8e9",
                                     "name": "Delete a Tag.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5571,7 +5571,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "f3c57d06-6aea-482b-98e0-d3b1ac5e954f",
+                            "id": "64c812b9-6690-4b54-abf4-930cce45524d",
                             "name": "Get All Locations",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5610,7 +5610,7 @@
                                             },
                                             "disabled": false,
                                             "key": "location",
-                                            "value": "NLD"
+                                            "value": "SGP"
                                         },
                                         {
                                             "description": {
@@ -5619,7 +5619,7 @@
                                             },
                                             "disabled": false,
                                             "key": "productCategory",
-                                            "value": "PUBLIC_IP"
+                                            "value": "SERVER"
                                         }
                                     ],
                                     "variable": []
@@ -5639,7 +5639,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "082533e2-86fe-4159-9b1d-2e372b086c06",
+                            "id": "3d225262-09f5-4939-aff7-f49268d7cd24",
                             "name": "Get Transactions.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5735,7 +5735,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "78e2db59-6ea3-4e1f-b19d-a72bb0ce5a25",
+                                    "id": "a55666c6-449d-449b-8c66-de0ceba7a0ea",
                                     "name": "Get Transaction.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5799,7 +5799,7 @@
                     "item": [
                         {
                             "event": [],
-                            "id": "070e4bb9-ad97-4a89-bac7-1cde0dc6c275",
+                            "id": "9a9fe14b-c0a1-4072-82bc-0c38bba6a94d",
                             "name": "List invoices.",
                             "protocolProfileBehavior": {
                                 "disableBodyPruning": true
@@ -5847,7 +5847,7 @@
                                             },
                                             "disabled": false,
                                             "key": "status",
-                                            "value": "OVERDUE"
+                                            "value": "PAID"
                                         },
                                         {
                                             "description": {
@@ -5913,7 +5913,7 @@
                             "item": [
                                 {
                                     "event": [],
-                                    "id": "249bf406-bf1b-48a4-81cd-527aa38e93ef",
+                                    "id": "78dbbec9-65df-46c2-bfe8-fae0a28245ad",
                                     "name": "Get invoice details.",
                                     "protocolProfileBehavior": {
                                         "disableBodyPruning": true
@@ -5969,7 +5969,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "67bf2fb9-9e44-422c-a5f7-d5198501b2af",
+                                                    "id": "c68a3c02-f5cc-4b60-8228-5828f33b8a9a",
                                                     "name": "Generate invoice details as PDF.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
@@ -6027,7 +6027,7 @@
                                             "item": [
                                                 {
                                                     "event": [],
-                                                    "id": "84dce37d-c530-4cce-b418-4477bb614f52",
+                                                    "id": "1980bf2f-ab9a-42a4-a60d-9b539120959a",
                                                     "name": "Pay an invoice.",
                                                     "protocolProfileBehavior": {
                                                         "disableBodyPruning": true
