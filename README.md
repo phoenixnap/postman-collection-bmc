@@ -21,8 +21,8 @@ Interact with<a href="https://phoenixnap.com/bare-metal-cloud"> Bare Metal Cloud
 
 ## Requirements
 
-- Bare Metal Cloud (BMC) account - [Get Started](https://learning.postman.com/docs/getting-started/installation-and-updates/)
-- Postman account / locall installation of Postman - [View Instructions](https://learning.postman.com/docs/getting-started/installation-and-updates/)
+- Bare Metal Cloud (BMC) account - [Get Started](https://www.youtube.com/watch?v=hPR60XWOSsQ))
+- Postman account / local installation of Postman - [View Instructions](https://learning.postman.com/docs/getting-started/installation-and-updates/)
 
 ## Creating a Bare Metal Cloud account
 
@@ -51,11 +51,11 @@ The Postman Collection of BMC APIs lets you easily trigger and test API calls to
 
   1. Download Collection from https://github.com/phoenixnap/postman-collection-bmc.
   2. Import the collection into Postman. 
-  3. Set up two enviorment variables: clientId and clientSecret. <br>
-      - Go to your Bare Metal Cloud acount and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. <br>
-      - Click *Manage Enviornments* in the top right corner of Postman inerface. <br>
+  3. Set up two environment variables: clientId and clientSecret. <br>
+      - Go to your Bare Metal Cloud account and create Client Credentials with wanted scopes. Refer to the section below for detailed instructions on how to do it. <br>
+      - Click *Manage Environments* in the top right corner of Postman interface. <br>
       - Add two new environments with variables clientId (for Client ID) and clientSecret (for Client Secret) that you fetched from step BMC portal. <br>
-      - Save the environment and select it in the environment drop down menu<br>
+      - Save the environment and select it in the environment drop down menu. <br>
   4. The Collection can now be used to make or test API calls. 
 
 **Authorization steps:**
@@ -107,7 +107,7 @@ Become part of the Bare Metal Cloud community to get updates on new features, he
 - [YouTube tutorials](https://www.youtube.com/watch?v=8TLsqgLDMN4&list=PLWcrQnFWd54WwkHM0oPpR1BrAhxlsy1Rc&ab_channel=PhoenixNAPGlobalITServices)
 - [Developers Portal](https://developers.phoenixnap.com)
 - [Knowledge Base](https://phoenixnap.com/kb)
-- [Blog](https:/phoenixnap.com/blog)
+- [Blog](https://phoenixnap.com/blog)
 
 ### Documentation
 
